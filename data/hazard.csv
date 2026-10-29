@@ -1,0 +1,203 @@
+osm_id,osm_type,name,lat,lon,status,population_10km,wikidata,gvp_volcano_number,gvp_name,last_eruption,vei_max,vei_last_eruption,eruption_certainty,match_status
+3891185636,node,Guntur,-7.1550155,107.8512432,active,821586,Q2735753,263130,Guntur,1887,3,,uncertain,matched
+249414034,node,Rucu Pichincha,-0.1627104,-78.566707,dormant,760790,,,,,,,,no wikidata tag
+547843884,node,Gunung Salak,-6.7136069,106.7385402,active,654362,Q669559,263050,Salak,1938,2,2,confirmed,matched
+10844002009,node,Gunung Ungaran,-7.1856195,110.3470896,dormant,509075,,,,,,,,no wikidata tag
+546519996,node,Gunung Gede,-6.7878411,106.9817166,active,426713,Q1145123,263060,Gede-Pangrango,1957,3,2,confirmed,matched
+262268965,node,Gunung Sindoro,-7.3011387,109.9966992,active,387616,Q2038462,263210,Sundoro,1971,2,2,confirmed,matched
+546511093,node,Gunung Galunggung,-7.2561523,108.0760925,active,339420,Q911748,263140,Galunggung,1984,5,1,confirmed,matched
+5964072248,node,Gunung Pulosari,-6.3416586,105.9783375,active,330756,Q42118,263010,Pulosari,,,,,matched
+336937600,node,Galeras,1.2215268,-77.3589636,active,300858,Q235062,351080,Galeras,2012,3,2,confirmed,matched
+3389543001,node,Volcán Morasurco,1.2765918,-77.2223811,dormant,278862,,,,,,,,no wikidata tag
+1070182218,node,Gunung Cereme,-6.8928759,108.4068229,active,276397,Q507179,263170,Ciremai,2015,3,,uncertain,matched
+262268929,node,Gunung Merbabu,-7.4524377,110.4408198,dormant,268683,Q598893,263240,Merbabu,1797,2,2,confirmed,matched
+318171712,node,Butajiri-Silti Field,8.0433507,38.3515298,dormant,267313,Q2928813,221260,Butajiri-Silti Field,,,,,matched
+262268947,node,Gunung Sumbing,-7.3818933,110.0758185,dormant,261373,Q1677690,263220,Sumbing,1730,1,1,confirmed,matched
+3891186291,node,Papandayan,-7.3253041,107.736412,active,258377,Q1073134,263100,Papandayan,2002,3,2,confirmed,matched
+249410367,node,Imbabura,0.2542902,-78.1803913,dormant,230114,Q1659771,352004,Imbabura,-5550,,,confirmed,matched
+545640257,node,Gunung Marapi,-0.3911126,100.4571432,active,224170,Q1960702,261140,Marapi,2023,2,2,confirmed,matched
+319208126,node,Unnamed Volcano,8.7968898,39.0062493,dormant,219378,,,,,,,,no wikidata tag
+4512725255,node,Gunung Merapi,-7.5412887,110.4462006,active,214456,Q134108,263250,Merapi,2020,4,1,confirmed,matched
+545808767,node,Gunung Gamalama,0.8098795,127.3323425,active,211811,Q1467910,268060,Gamalama,2018,3,1,confirmed,matched
+332021476,node,Musuan Peak,7.8769831,125.0696915,active,193161,Q828349,271070,Musuan,1886,1,1,uncertain,matched
+545696097,node,Gunung Singgalang,-0.3936932,100.3331149,dormant,191449,Q2188825,,,,,,,no P1886
+1070172240,node,Gunung Lawu,-7.627382,111.1943158,dormant,189920,Q3219949,263260,Lawu,,,,,matched
+546562831,node,Gunung Kiaraberes-Gagak,-6.7293192,106.6504902,active,189650,Q4271911,,,,,,,no P1886
+5963919037,node,Gunung Slamet,-7.2414693,109.2149699,active,185145,Q580131,263180,Slamet,2014,2,2,confirmed,matched
+1070183867,node,Gunung Pakuwaja,-7.2290872,109.9225151,dormant,181655,,,,,,,,no wikidata tag
+1898062616,node,Gunung Tangkoko,1.5123118,125.1952429,dormant,166457,Q3120328,266130,Tangkoko-Duasudara,1880,5,1,confirmed,matched
+319588343,node,Mount Gadungan,7.7780572,124.0797186,dormant,158438,,,,,,,,no wikidata tag
+320129443,node,Mount Gurain,7.9074778,124.1118309,dormant,151899,,,,,,,,no wikidata tag
+548201380,node,Anak Ranakah,-8.6338092,120.5323856,dormant,138850,,,,,,,,no wikidata tag
+5390039039,node,Kawah Timbang,-7.19758,109.8409613,active,131247,,,,,,,,no wikidata tag
+309204570,node,Mount Karisimbi,-1.5061499,29.4503581,dormant,127413,Q737859,223040,Karisimbi,-8050,,,confirmed,matched
+449697393,node,Arjuno-Welirang,-7.7342623,112.5749939,dormant,126787,Q665399,263290,Arjuno-Welirang,1991,2,,uncertain,matched
+3172175514,node,Kawah Candradimuka,-7.188865,109.8534932,active,123314,,,,,,,,no wikidata tag
+548146394,node,Iya,-8.8918133,121.6410971,active,121272,Q2236900,264110,Iya,1971,3,1,uncertain,matched
+449702647,node,Gunung Kelud,-7.9389217,112.3052492,active,118510,Q513216,263280,Kelud,2014,5,4,confirmed,matched
+545690183,node,Gunung Sibayak,3.2393517,98.5047584,active,117170,Q2302908,261070,Singkut,1881,,,confirmed,matched
+2659798251,node,Vulcan,-4.263593,152.1618001,dormant,116797,Q900613,,,,,,,no P1886
+292801401,node,Gunung Batur,-8.2394154,115.3779603,active,115946,Q43876,264010,Batur,1999,2,1,confirmed,matched
+1070157207,node,Gunung Agung,-8.3428923,115.5072076,active,111414,Q158470,264020,Agung,2022,5,1,uncertain,matched
+1070196349,node,Gunung Muria,-6.616247,110.8903011,dormant,108997,Q3217435,263251,Muria,,,,,"matched (Pleistocene volcano, no eruption data)"
+545736009,node,Gunung Tandikat,-0.4311723,100.3194218,dormant,107892,Q40692,261150,Tandikat-Singgalang,1924,1,1,confirmed,matched
+5860199190,node,Volcan Karibumba,0.3577809,29.3665291,dormant,94780,Q22428592,,,,,,,no P1886
+319588271,node,Unnamed Volcano,6.8130314,125.1072336,dormant,86021,,,,,,,,no wikidata tag
+319588272,node,Unnamed Volcano,6.8062613,125.1065646,dormant,84688,,,,,,,,no wikidata tag
+319588273,node,Unnamed Volcano,6.7952953,125.1026768,dormant,83947,,,,,,,,no wikidata tag
+545640131,node,Gunung Lubuk Raya,1.4779558,99.2099312,dormant,75828,Q1087336,261111,Lubuk Raya,,,,,"matched (Pleistocene volcano, no eruption data)"
+319178928,node,Unnamed Volcano,7.8223176,38.7842405,dormant,75598,,,,,,,,no wikidata tag
+319208996,node,Bora-Bericcio,8.2747126,39.0342057,dormant,75161,Q2910587,221240,,,,,,P1886 not found in GVP
+332019186,node,Mount Talinis,9.2445063,123.1778105,dormant,74966,Q1143188,272010,Cuernos de Negros,,,,,"matched (Pleistocene volcano, no eruption data)"
+5829583205,node,Ili Boleng,-8.3430617,123.2529401,dormant,73920,Q2364075,264220,Iliboleng,1993,2,1,confirmed,matched
+292046205,node,Tavurvur,-4.2381767,152.2092209,active,72497,Q264862,252140,Rabaul,2014,6,3,confirmed,matched
+548134213,node,Wolo Inelika,-8.7223286,120.9756621,active,71280,Q2352524,264090,Inielika,2001,2,2,confirmed,matched
+1070172279,node,Gunung Sinabung,3.1709534,98.3920481,active,71264,Q207678,261080,Sinabung,2020,4,3,confirmed,matched
+3648562298,node,Rabalanakaia,-4.2178209,152.1968083,dormant,67888,,,,,,,,no wikidata tag
+249412184,node,Volcán Pichincha,-0.1657227,-78.6043435,active,66556,Q742216,352020,Guagua Pichincha,2009,5,1,uncertain,matched
+547907212,node,Ebulobo,-8.8154836,121.1913726,active,64643,Q2382787,264100,Ebulobo,2017,2,,uncertain,matched
+4151625224,node,Tovanumbatur,-4.1822438,152.1702124,dormant,64569,,,,,,,,no wikidata tag
+3891185635,node,Geureudong,4.813,96.82,dormant,64388,Q40981,261050,"Telong, Bur ni",1937,2,,confirmed,matched
+319478126,node,Mount Hibok-Hibok,9.1994447,124.6758332,active,64238,Q1319819,271080,Camiguin,1948,3,3,confirmed,matched
+548647873,node,Gunung Awu Crater,3.6813063,125.4534798,active,61129,Q791817,267040,Awu,2004,4,2,confirmed,matched
+4151625223,node,Kombiu,-4.2143389,152.2124535,dormant,55510,,,,,,,,no wikidata tag
+319478132,node,Leonard Kniaseff,7.3939773,126.0626747,active,54575,Q1819013,271031,Leonard Range,80,,,confirmed,matched
+4151625225,node,Turanguna,-4.2386705,152.2233777,dormant,53971,,,,,,,,no wikidata tag
+59073041,node,Gunung Bromo,-7.9420691,112.9529769,active,51968,Q679590,263310,Tengger Caldera,2023,4,1,confirmed,matched
+320129600,node,Mount Navaro,6.3838794,125.0360512,dormant,51731,,,,,,,,no wikidata tag
+320129704,node,Mount Vulcan,9.2139093,124.6488205,dormant,51437,,,,,,,,no wikidata tag
+271141312,node,Tulabug,-1.785942,-78.6144359,dormant,51284,,,,,,,,no wikidata tag
+6129844989,node,Mount Sipaka,9.0133655,124.8749152,dormant,51043,,,,,,,,no wikidata tag
+318125017,node,Alutu,7.763568,38.7635757,dormant,49698,Q125156,221270,Aluto,1550,,,confirmed,matched
+8151598523,node,Unnamed Volcano,7.6247057,124.2090332,dormant,48005,,,,,,,,no wikidata tag
+1671398693,node,Volcán Irazú,9.9814457,-83.8476566,active,46667,Q1672472,345060,Irazu,1994,3,2,uncertain,matched
+319179018,node,Unnamed Volcano,7.832245,38.8934815,dormant,45348,,,,,,,,no wikidata tag
+319178993,node,Unnamed Volcano,7.8237631,38.879813,dormant,44747,,,,,,,,no wikidata tag
+3891185644,node,Ilikedeka,-8.3017219,122.9058413,dormant,44333,Q2381562,264800,,,,,,P1886 not found in GVP
+319478135,node,Mount Matutum,6.3600441,125.0761806,active,44308,Q1910848,271020,Matutum,1911,,,uncertain,matched
+545747274,node,Gunung Kerinci,-1.6971814,101.2646538,active,44198,Q827728,261170,Kerinci,2024,2,2,confirmed,matched
+319179039,node,Unnamed Volcano,7.8534063,38.8786328,dormant,44145,,,,,,,,no wikidata tag
+8151598524,node,Unnamed Volcano,7.621675,124.2216182,dormant,43888,,,,,,,,no wikidata tag
+319179047,node,Unnamed Volcano,7.8984356,38.9163018,dormant,43835,,,,,,,,no wikidata tag
+319179134,node,Unnamed Volcano,7.8629184,38.8866795,dormant,43662,,,,,,,,no wikidata tag
+319179212,node,Unnamed Volcano,7.9276616,38.9246568,dormant,42488,,,,,,,,no wikidata tag
+319179040,node,Unnamed Volcano,7.8687638,38.8828707,dormant,41888,,,,,,,,no wikidata tag
+8151598525,node,Unnamed Volcano,7.6295016,124.2250299,dormant,41524,,,,,,,,no wikidata tag
+548631314,node,Gunung Karangetang,2.7775257,125.4060634,active,41463,,,,,,,,no wikidata tag
+548151997,node,Gunung Kelimutu,-8.7651702,121.8133427,active,41229,Q1738211,264140,Kelimutu,1968,2,1,confirmed,matched
+319179118,node,Unnamed Volcano,7.8994717,38.9045644,dormant,40561,,,,,,,,no wikidata tag
+319179107,node,Unnamed Volcano,7.898223,38.900112,dormant,40281,,,,,,,,no wikidata tag
+319179105,node,Unnamed Volcano,7.9031964,38.901099,dormant,39064,,,,,,,,no wikidata tag
+316864276,node,Mount Fentale,8.9875653,39.9019248,active,38261,Q2336503,221190,Fentale,1789,0,0,confirmed,matched
+319179093,node,Unnamed Volcano,7.9285941,38.9107335,dormant,37759,,,,,,,,no wikidata tag
+319179094,node,Unnamed Volcano,7.9197529,38.9071071,dormant,37495,,,,,,,,no wikidata tag
+3891186341,node,Toba Supervolcano,2.58,98.83,dormant,36435,,,,,,,,no wikidata tag
+319179098,node,Unnamed Volcano,7.9252148,38.9048755,dormant,36032,,,,,,,,no wikidata tag
+619628767,node,Mont Cameroun,4.2180273,9.1733628,active,33856,Q190562,224010,Cameroon,2000,3,2,confirmed,matched
+1545489827,way,Kawah Keramikan,-5.2392682,104.2632972,active,33660,,,,,,,,no wikidata tag
+8151598526,node,Unnamed Volcano,7.6350099,124.2354584,dormant,33496,,,,,,,,no wikidata tag
+14056941078,node,Kawah Kopi Susu,-5.239689,104.262807,active,33391,,,,,,,,no wikidata tag
+1286515178,way,Kawah Nirwana,-5.2367652,104.2592044,active,31734,,,,,,,,no wikidata tag
+319223992,node,Dofen,9.3485271,40.1321432,dormant,29311,Q3033707,221180,Dofen,,,,,matched
+4909595792,node,Mount Meru Ashcone,-3.237767,36.762464,dormant,28869,Q309098,222160,Meru,1910,4,2,confirmed,matched
+309205211,node,Nyiragongo,-1.5214482,29.2499483,active,28757,Q214696,223030,Nyiragongo,2002,2,2,confirmed,matched
+416326155,node,Mount Apo,6.9873416,125.2709954,dormant,28597,Q455963,271030,Apo,,,,,"matched (Pleistocene volcano, no eruption data)"
+10262887745,node,El Valle,8.6044976,-80.127604,dormant,28044,Q1324715,346030,"Valle, El",,,,,"matched (Pleistocene volcano, no eruption data)"
+319518806,node,Mount Melibengoy,6.1022146,124.8887021,dormant,26798,Q1582571,271011,Melebingoy,1640,5,5,confirmed,matched
+1815344324,node,Tungurahua,-1.466911,-78.4492119,active,25530,Q207421,352080,Tungurahua,2012,5,3,confirmed,matched
+413577404,node,Longonot,-0.9144381,36.4564583,dormant,25339,Q1520750,222100,Longonot,1863,0,0,confirmed,matched
+319179199,node,Unnamed Volcano,7.980362,38.8905633,dormant,24805,,,,,,,,no wikidata tag
+8151598522,node,Unnamed Volcano,7.609786,124.2509293,dormant,24412,,,,,,,,no wikidata tag
+319478134,node,Mount Makaturing,7.6545321,124.3031319,active,24083,Q1586051,271040,Makaturing,1882,2,,confirmed,matched
+548117569,node,Ili Lewotobi Perempuan,-8.5516928,122.7806473,active,23412,,,,,,,,no wikidata tag
+3891185641,node,Ibu,1.4907438,127.6305401,active,22594,Q2573469,268030,Ibu,2008,2,2,confirmed,matched
+8776948636,node,Baruta,-1.4977792,29.2531242,active,21405,,,,,,,,no wikidata tag
+319213029,node,Chiracha,6.7179116,38.0906509,dormant,21155,Q2963895,221300,Chericha,,,,,"matched (Pleistocene volcano, no eruption data)"
+309311405,node,Volcán Cerro Machín,4.486944,-75.388889,active,21061,Q546823,351040,Machin,1180,,,confirmed,matched
+6011670309,node,Mount Kalatungan,7.9550885,124.8026895,dormant,20457,Q1646267,271061,Kalatungan,,,,,"matched (Pleistocene volcano, no eruption data)"
+549710252,node,Gunung Ruang,2.304852,125.3665476,active,19074,Q2094734,267010,Ruang,2024,4,4,confirmed,matched
+2576976211,node,Gallourcu,-1.1503811,-78.7250026,dormant,18275,,,,,,,,no wikidata tag
+449713444,node,Gunung Semeru,-8.1078426,112.92248,active,18066,Q270158,263300,Semeru,2019,4,4,confirmed,matched
+361305801,node,Azufral,1.0855379,-77.7185879,active,17849,Q794264,351090,Azufral,-930,4,4,confirmed,matched
+319588229,node,Mount Balatukan,8.7498359,124.9757909,dormant,17518,Q804660,271072,Balatukan,,,,,"matched (Pleistocene volcano, no eruption data)"
+548161868,node,Ili Lewotolok,-8.2727646,123.5067385,active,17373,Q1911044,264230,Lewotolok,2025,3,2,confirmed,matched
+1070170146,node,Cot Seulawah Agam,5.4475,95.6554,dormant,17273,Q29595,261020,Seulawah Agam,,,,,"matched (Pleistocene volcano, no eruption data)"
+3390395557,node,Volcán Sibundoy,1.1241409,-77.0139072,dormant,15133,,,,,,,,no wikidata tag
+547903342,node,Gunung Api (Banda),-4.5225918,129.8798487,dormant,14463,Q806237,265090,Banda Api,1988,3,3,confirmed,matched
+5846266477,node,Baluran,-7.8361947,114.37794,dormant,13846,Q571805,263351,Baluran,,,,,matched
+3300279595,node,Quilotoa,-0.8671978,-78.9152481,dormant,13830,Q1641276,352060,Quilotoa,1797,6,,uncertain,matched
+545786074,node,Gunung Gamkonora,1.3790723,127.5322812,active,12975,Q1493157,268040,Gamkonora,2013,5,1,uncertain,matched
+271138049,node,Cotacachi,0.3604771,-78.3487253,dormant,12686,Q1136571,352802,Cotacachi,,,,,"matched (Pleistocene volcano, no eruption data)"
+319226030,node,Kone ?,8.8433652,39.698213,active,12501,,,,,,,,no wikidata tag
+5911027843,node,Mount Suswa,-1.1364619,36.3405047,dormant,11244,,,,,,,,no wikidata tag
+6578711567,node,Manam Volcano,-4.0786798,145.0380921,active,10957,,,,,,,,no wikidata tag
+3389564885,node,Volcán Bordoncillo,1.2099552,-77.1323837,dormant,10744,,,,,,,,no wikidata tag
+2088569683,node,Gabuna Group,-5.4442858,150.0278066,active,9461,Q3117425,252070,Krummel-Garbuna-Welcker,2008,2,2,confirmed,matched
+10005758306,node,Volcán De Lodo Cacaual,8.1823975,-76.4224581,active,7847,,,,,,,,no wikidata tag
+271128377,node,Volcán Chiles,0.8169534,-77.9372503,dormant,7768,Q2648864,351110,Chiles-Cerro Negro,1936,2,2,confirmed,matched
+4246054743,node,Gallego,-9.3571406,159.7329773,dormant,7206,,,,,,,,no wikidata tag
+12333550097,node,Volcán de lodo Los Aburridos,8.340818,-76.4573231,active,6785,,,,,,,,no wikidata tag
+546415220,node,Gunung Ijen,-8.0579332,114.2430975,active,6256,Q548489,263350,Ijen,2002,2,1,uncertain,matched
+548134215,node,Ili Werung,-8.5320499,123.5734584,dormant,6129,Q2483640,264250,Iliwerung,2021,3,0,confirmed,matched
+3369068760,node,Volcán San Diego,5.6502993,-74.959757,active,4804,,,,,,,,no wikidata tag
+703480049,node,Volcán Campanero,1.1366063,-77.1099223,dormant,4676,,,,,,,,no wikidata tag
+548239934,node,Gunung Sirung,-8.499553,124.1279785,active,4463,Q1322666,264270,Sirung,2021,2,1,confirmed,matched
+3390396465,node,Volcan Mujundinoy,1.0852002,-77.1027224,dormant,4058,,,,,,,,no wikidata tag
+4246035027,node,Nonda,-7.6568182,156.6010309,dormant,3482,Q65040477,,,,,,,no P1886
+548617400,node,Gunung Wurlali,-7.1218701,128.6735194,dormant,2779,,,,,,,,no wikidata tag
+667677557,node,Pico Basilé,3.5885081,8.7625253,dormant,2615,Q1518286,224004,"Basile, Pico",1923,,,confirmed,matched
+58959434,node,Chimborazo,-1.4690816,-78.8159495,dormant,2303,Q14081,352071,Chimborazo,550,,,confirmed,matched
+255620945,node,Ol Doinyo Lengai,-2.7595453,35.9140888,active,2271,Q746787,222120,"Lengai, Ol Doinyo",2017,3,0,confirmed,matched
+271145503,node,Soche,0.5512434,-77.5823592,dormant,1828,Q974698,,,,,,,no P1886
+437980410,node,Volcán Cerro Negro de Mayasquer,0.8244775,-77.9674616,dormant,1824,Q2946776,351110,Chiles-Cerro Negro,1936,2,2,confirmed,matched
+3911673085,node,Loloru,-6.5146009,155.6128431,dormant,1772,Q6669030,255030,Loloru,-1050,,,confirmed,matched
+435509578,node,Nyamuragira,-1.4122704,29.2030237,active,1372,Q695846,223020,Nyamulagira,2018,3,0,confirmed,matched
+332021231,node,Mount Piapayungan,7.6908339,124.5072221,active,1216,Q31478904,,,,,,,no P1886
+546451027,node,Gunung Raung,-8.119636,114.055025,active,1213,Q2033748,263340,Raung,2025,5,2,confirmed,matched
+396782774,node,Bagana,-6.1364572,155.1955752,active,1095,Q799827,255020,Bagana,2000,4,2,confirmed,matched
+2559811255,node,Balbi,-5.9048257,154.9951052,active,986,Q1298202,255010,Balbi,1825,,,uncertain,matched
+548213956,node,Gunung Barujari,-8.411405,116.4225175,active,965,,,,,,,,no wikidata tag
+1070188152,node,Gunung Patah,-4.2572731,103.3058845,dormant,933,,,,,,,,no wikidata tag
+12740875986,node,Reini,-6.1306128,155.2302289,dormant,910,,,,,,,,no wikidata tag
+549915006,node,Gunung Colo,-0.1623854,121.6010796,active,893,,,,,,,,no wikidata tag
+361404725,node,Volcán Cumbal,0.9556759,-77.8867296,active,646,Q2019666,351100,Cumbal,1926,2,2,confirmed,matched
+305002951,node,Blup Blup,-3.507662,144.6094066,dormant,591,,,,,,,,no wikidata tag
+318579794,node,Mawenzi,-3.0933462,37.456359,dormant,399,Q1283494,,,,,,,no P1886
+698275436,node,Unnamed Volcano,-3.6145802,144.8199544,active,375,,,,,,,,no wikidata tag
+546079687,node,Gunung Dukono,1.698949,127.8791239,active,367,Q2340739,268010,Dukono,1933,3,3,confirmed,matched
+1306875179,node,Crater Arenas,4.8925977,-75.3194118,active,360,Q233351,351020,"Ruiz, Nevado del",2014,4,2,confirmed,matched
+1366302165,node,Volcán Nevado del Ruiz,4.8819399,-75.3178182,active,342,Q233351,351020,"Ruiz, Nevado del",2014,4,2,confirmed,matched
+548192198,node,Laworkawra,-6.7408892,129.5136471,dormant,297,Q2432393,265060,Nila,1968,2,1,confirmed,matched
+249414219,node,Reventador,-0.0807135,-77.658731,active,291,Q248770,352010,Reventador,2008,4,2,confirmed,matched
+3891186330,node,Tambora,-8.2479401,117.9951291,active,283,Q168714,264040,Tambora,1967,7,0,confirmed,matched
+1306875178,node,Cráter La Olleta,4.8936607,-75.3556626,dormant,278,,,,,,,,no wikidata tag
+12740875985,node,Billy Mitchell,-6.0899468,155.2251863,dormant,218,,,,,,,,no wikidata tag
+1070169446,node,Sangeang,-8.1958638,119.0697891,active,199,Q2573663,264050,Sangeang Api,2022,3,2,confirmed,matched
+698275443,node,Kadovar,-3.6071886,144.5881744,active,189,,,,,,,,no wikidata tag
+1432238208,node,Cayambe,0.0251586,-77.9889555,dormant,164,Q754734,352006,Cayambe,1785,4,2,confirmed,matched
+545641232,node,Gunung Puet Sague,4.909395,96.325183,dormant,133,Q3958173,261030,Peuet Sague,2000,2,2,confirmed,matched
+249418469,node,Cotopaxi,-0.6805597,-78.4377734,active,126,Q181476,352050,Cotopaxi,2022,5,2,confirmed,matched
+318585199,node,Shira,-3.033717,37.2371711,dormant,109,,,,,,,,no wikidata tag
+1853002362,node,Crater Nevado del Tolima,4.6578845,-75.3280348,active,108,Q144327,351030,"Tolima, Nevado del",1943,5,2,confirmed,matched
+1495907181,node,Paramillo del Cisne,4.8429744,-75.3455625,dormant,92,Q2341569,,,,,,,no P1886
+249418500,node,Antisana,-0.4844984,-78.1423075,dormant,84,Q14082,352030,Antisana,1801,2,2,confirmed,matched
+548234725,node,Wuarlapna,-6.3123344,130.0170294,dormant,57,Q1083948,265070,Serua,1921,4,2,confirmed,matched
+566695305,node,Nevado de Santa Isabel,4.8069972,-75.3713842,dormant,46,Q2956713,351021,Santa Isabel,-850,,,confirmed,matched
+548604567,node,Gunung Teon,-6.9700205,129.1450352,dormant,41,Q2190351,265050,Teon,1904,4,2,confirmed,matched
+9282777378,node,Paramillo del Quindío,4.7107368,-75.3925181,dormant,32,Q2648183,,,,,,,no P1886
+249414353,node,Volcán Sierra Negra,-0.8133934,-91.1348926,active,30,Q2256382,,,,,,,no P1886
+249414631,node,Sangay,-2.0049377,-78.3416774,active,20,Q14052,352090,Sangay,2019,3,2,confirmed,matched
+249409757,node,Volcán Darwin,-0.1736808,-91.2736167,active,6,Q2672570,353030,Darwin,1813,2,2,confirmed,matched
+249407962,node,Volcán Cerro Azul,-0.9262174,-91.3856102,active,4,Q1055779,353060,"Azul, Cerro",2008,3,1,confirmed,matched
+249414889,node,Volcán Sumaco,-0.5413169,-77.6272219,active,3,Q3125067,352040,Sumaco,1933,3,2,uncertain,matched
+249410955,node,Volcán La Cumbre,-0.3531752,-91.5240755,active,1,Q1190110,353010,Fernandina,2024,4,1,confirmed,matched
+271146866,node,Ecuador,-0.0119761,-91.5513648,dormant,1,Q4530142,353011,Ecuador,1150,0,0,confirmed,matched
+448446512,node,Anak Krakatau,-6.1029497,105.4221761,active,1,Q2205302,262000,Krakatau,2021,6,2,confirmed,matched
+249407661,node,Volcán Alcedo,-0.3962759,-91.1090644,active,0,Q1424979,353040,Alcedo,1993,1,1,confirmed,matched
+249410766,node,Volcán Santiago,-0.2059672,-90.7840393,dormant,0,,,,,,,,no wikidata tag
+249416289,node,Volcán Wolf,0.0422689,-91.3336982,active,0,Q1376373,353020,Wolf,2022,4,2,confirmed,matched
+271135137,node,Pinta,0.5842115,-90.753158,active,0,Q1064098,353070,Pinta,1928,,,uncertain,matched
+271136000,node,Marchena,0.3502971,-90.4635508,active,0,,,,,,,,no wikidata tag
+547905001,node,Gunung Batu Tara,-7.7906463,123.5865811,active,0,Q811048,264260,"Tara, Batu",2022,2,,uncertain,matched
+8019176277,node,Kavachi submarine volcano,-8.9936906,157.9723955,active,0,Q987676,255060,Kavachi,2020,2,,uncertain,matched
+10265083398,node,Nieuwerkerk,-6.6112376,124.6604918,dormant,0,Q2237908,,,,,,,no P1886
