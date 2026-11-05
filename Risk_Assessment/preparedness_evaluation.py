@@ -36,9 +36,9 @@ def weighted_gmean(components: np.ndarray, weights) -> np.ndarray:
 
 
 def preparedness_index(df: pd.DataFrame, epsilon=EPSILON, weights=WEIGHTS) -> np.ndarray:
-    # 1. hazard maps (log of 0 maps is -inf; the clip below turns it into epsilon)
+    # 1. hazard maps 
     with np.errstate(divide="ignore"):
-        hazard_maps = np.log(10.0 * df["n_hazard_maps"] / math.log(100.0)).clip(upper=1).fillna(0)
+        hazard_maps = np.log(3.0 * df["n_hazard_maps"] + 1).clip(upper=1).fillna(0)
 
     # 2. healthcare per capita
     health = df["n_health_per_capita"]
