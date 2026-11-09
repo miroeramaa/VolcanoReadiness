@@ -125,7 +125,7 @@ def compute_ranking() -> pd.DataFrame:
 
     # 2. each Risk_Assessment file gives its own score
     x = hazard_evaluation.score(hazard_data)
-    y = population_evalution.score(population_data)
+    y = population_evalution.score(hazard_data)
     z = preparedness_evaluation.score(preparedness_data)
     t = mapping_evaluation.score(mapping_data)
 

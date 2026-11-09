@@ -101,7 +101,7 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
         area = circle.area / 1_000_000
 
         results.append({
-            "population_10km": total,
+            "population_on_10km": total,
             "mean_density_people_per_km2": total / area,
             "hexagons_intersecting": len(cells),
             "hexagons_with_valid_population": int(valid.sum()),
@@ -114,15 +114,15 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
     df = pd.concat([df, population_data], axis=1)
 
     # Calculate population scores
-    log_pop = np.log10(df["population_10km"] + 1)
-    mid = np.log10(MIDPOINT if MIDPOINT else df["population_10km"].median())
+    log_pop = np.log10(df["population_on_10km"] + 1)
+    mid = np.log10(MIDPOINT if MIDPOINT else df["population_on_10km"].median())
 
     df["population_score"] = 1 / (
         1 + np.exp(-STEEPNESS * (log_pop - mid))
     )
 
     # Save detailed results
-    df.to_csv(DATA_FOLDER / "kontur_10km_population_scores.csv", index=False)
+    df.to_csv(data / "kontur_10km_population_scores.csv", index=False)
 
     # Return only the required columns
     return df[["name", "lat", "lon", "population_score"]]
