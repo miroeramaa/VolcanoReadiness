@@ -9,30 +9,17 @@ from pyproj import CRS, Transformer
 from shapely.geometry import Point
 from shapely.ops import transform, unary_union
 
-import requests
-import gzip
-import shutil
-
 
 MIDPOINT = None   # population that scores 0.5; None = use the median
 STEEPNESS = 2
-RADIUS = 10
+RADIUS = 10       # km
 
-#open population data (kontur) from online dataset
-url = "https://geodata-eu-central-1-kontur-public.s3.eu-central-1.amazonaws.com/kontur_datasets/kontur_population_20231101.gpkg.gz"
 
-# Download
-response = requests.get(url, stream=True)
-response.raise_for_status()
 
-# Save compressed file
-with open("population.gpkg.gz", "wb") as f:
-    shutil.copyfileobj(response.raw, f)
-
-# Decompress
-with gzip.open("population.gpkg.gz", "rb") as f_in:
-    with open("population.gpkg", "wb") as f_out:
-        shutil.copyfileobj(f_in, f_out)
+# Kontur population dataset, downloaded by hand and put in the data folder:
+# https://geodata-eu-central-1-kontur-public.s3.eu-central-1.amazonaws.com/kontur_datasets/kontur_population_20231101.gpkg.gz
+DATA = Path(__file__).resolve().parent.parent / "data"
+KONTUR_FILE = DATA / "kontur_population_20231101.gpkg"
 
 
 def score(df: pd.DataFrame) -> pd.DataFrame:
@@ -41,19 +28,30 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
     Input:  name, lat, lon
     Output: name, lat, lon, population_score
     """
+    cache = DATA / "kontur_10km_population_scores.csv"
+    if cache.exists():
+        cached = pd.read_csv(cache)
+        if len(cached) == len(df) and (cached["name"].values == df["name"].values).all():
+            print("Using saved population scores from", cache.name)
+            return cached[["name", "lat", "lon", "population_score"]]
 
-    df = df.copy().reset_index(drop=True) #
+    if not KONTUR_FILE.exists():
+        raise FileNotFoundError(
+            f"Kontur population file not found at {KONTUR_FILE}\n"
+            "Download it (see the link at the top of this file), unzip it, "
+            "and put the .gpkg file in the data folder."
+        )
 
-    kontur_file = data = fiona.open("population.gpkg", mode="r")
+    df = df.copy().reset_index(drop=True)
 
     # Get Kontur CRS and population column
-    with fiona.open(kontur_file) as file:
+    with fiona.open(KONTUR_FILE) as file:
         source_crs = CRS.from_user_input(file.crs_wkt or file.crs)
-        pop_column = "population"
+    pop_column = "population"
 
     results = []
 
-    # Calculate population within 10 km of each volcano 
+    # Calculate population within 10 km of each volcano
     for _, row in df.iterrows():
 
         lat = float(row["lat"])
@@ -74,7 +72,7 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
         to_source = Transformer.from_crs("EPSG:4326", source_crs, always_xy=True)
         bounds = to_source.transform_bounds(*circle_wgs.bounds, densify_pts=21)
 
-        cells = gpd.read_file(kontur_file, bbox=bounds).to_crs(local_crs)
+        cells = gpd.read_file(KONTUR_FILE, bbox=bounds).to_crs(local_crs)
 
         cells = cells[
             cells.geometry.notna()
@@ -91,7 +89,8 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
 
         valid = population.notna() & np.isfinite(population) & (population >= 0)
 
-        total = (population * fraction).where(valid).sum(min_count=1)
+        # No people in the circle counts as 0, not "missing"
+        total = (population * fraction).where(valid).sum()
 
         coverage = (
             100 * unary_union(list(inside)).area / circle.area
@@ -113,16 +112,16 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
     population_data = pd.DataFrame(results)
     df = pd.concat([df, population_data], axis=1)
 
-    # Calculate population scores
+    # Calculate population scores (+1 so a median of 0 people doesn't break log10)
     log_pop = np.log10(df["population_on_10km"] + 1)
-    mid = np.log10(MIDPOINT if MIDPOINT else df["population_on_10km"].median())
+    mid = np.log10((MIDPOINT if MIDPOINT else df["population_on_10km"].median()) + 1)
 
     df["population_score"] = 1 / (
         1 + np.exp(-STEEPNESS * (log_pop - mid))
     )
 
     # Save detailed results
-    df.to_csv(data / "kontur_10km_population_scores.csv", index=False)
+    df.to_csv(DATA / "kontur_10km_population_scores.csv", index=False)
 
     # Return only the required columns
     return df[["name", "lat", "lon", "population_score"]]
