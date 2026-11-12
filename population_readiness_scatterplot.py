@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-##NOTE THAT VOLCANOES ARE NOT MATCHED BY COORDINATES 
+###NOTE THAT VOLCANOES ARE NOT MATCHED BY COORDINATES 
 
 # change these to your real file names
 volcano_file = "data/volcano_summary.csv"
