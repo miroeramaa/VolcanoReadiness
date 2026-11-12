@@ -20,7 +20,7 @@ DATA = Path(__file__).resolve().parent / "data"
 HAZARD_FILE = DATA / "hazard.csv"
 POPULATION_FILE = DATA / "population.csv"
 PREPAREDNESS_FILE = DATA / "preparedness.csv"
-MAPPING_FILE = DATA / "mapping.csv"
+MAPPING_FILE = DATA / "volcano_readiness.csv"
 
 # Two rows are the same volcano when they have the same name AND their
 # coordinates are closer than this (allows small differences between files).

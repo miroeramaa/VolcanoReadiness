@@ -38,11 +38,10 @@ def weighted_gmean(components: np.ndarray, weights) -> np.ndarray:
 def preparedness_index(df: pd.DataFrame, epsilon=EPSILON, weights=WEIGHTS) -> np.ndarray:
     # 1. hazard maps 
     with np.errstate(divide="ignore"):
-        hazard_maps = np.log(3.0 * df["n_hazard_maps"] + 1).clip(upper=1).fillna(0)
+        hazard_maps = (np.log(df["n_hazard_maps"] + 1)/np.log(4)).clip(upper=1).fillna(0)
 
     # 2. healthcare per capita
-    health = df["n_health_per_capita"]
-    health = min_max_rescale(health.min(), health.max(), health).fillna(0)
+    health = df["n_health_per_capita"].rank(pct=True)
 
     # 3. HDI (as in the notebook: missing values filled with the mean raw HDI)
     hdi = min_max_rescale(df["HDI"].min(), df["HDI"].max(), df["HDI"]).fillna(df["HDI"].mean())
