@@ -1,3 +1,4 @@
+import shutil
 import unicodedata
 from pathlib import Path
 
@@ -18,9 +19,13 @@ DATA = Path(__file__).resolve().parent / "data"
 
 # The 4 input files (file a, b, c, d)
 HAZARD_FILE = DATA / "processed" / "hazard.csv"
-POPULATION_FILE = DATA / "processed" / "population.csv"
+POPULATION_FILE = DATA / "processed" / "kontur_10km_population_scores.csv"
 PREPAREDNESS_FILE = DATA / "processed" / "preparedness.csv"
-MAPPING_FILE = DATA / "processed" / "volcano_readiness.csv"
+MAPPING_FILE = DATA / "processed" / "volcano_mapping.csv"
+
+# Output: the new ranking, and a copy of the previous one
+RANKING_FILE = Path(__file__).resolve().parent / "final_ranking.csv"
+OLD_RANKING_FILE = Path(__file__).resolve().parent / "final_ranking_old.csv"
 
 # Two rows are the same volcano when they have the same name AND their
 # coordinates are closer than this (allows small differences between files).
@@ -125,7 +130,7 @@ def compute_ranking() -> pd.DataFrame:
 
     # 2. each Risk_Assessment file gives its own score
     x = hazard_evaluation.score(hazard_data)
-    y = population_evalution.score(hazard_data)
+    y = population_evalution.score(population_data)
     z = preparedness_evaluation.score(preparedness_data)
     t = mapping_evaluation.score(mapping_data)
 
@@ -138,16 +143,22 @@ def compute_ranking() -> pd.DataFrame:
     volcanoes = link(volcanoes, z, "preparedness")
     volcanoes = link(volcanoes, t, "mapping")
 
-    # 4. total score (preparedness is flipped: well prepared = lower priority)
-    volcanoes["total_score"] = (
+    # 4. base score = everything except mapping
+    #    (preparedness is flipped: well prepared = lower priority)
+    volcanoes["base_score"] = (
         volcanoes["hazard_score"]
         * volcanoes["population_score"]
         * (1 - volcanoes["preparedness_score"])
-        * volcanoes["mapping_score"]
     )
 
-    # 5. ranking
-    ranking = volcanoes.sort_values("total_score", ascending=False).reset_index(drop=True)
+    # 5. total score (mapping is flipped: well mapped = lower priority).
+    #    With completeness 0 the mapping factor is 1, so total = base score.
+    volcanoes["total_score"] = volcanoes["base_score"] * (1 - volcanoes["mapping_score"])
+
+    # 6. ranking: total score first, base score breaks ties
+    ranking = (volcanoes
+               .sort_values(["total_score", "base_score"], ascending=False)
+               .reset_index(drop=True))
     ranking.index += 1          # rank 1 = highest priority
     ranking.index.name = "rank"
     return ranking
@@ -156,4 +167,10 @@ def compute_ranking() -> pd.DataFrame:
 if __name__ == "__main__":
     ranking = compute_ranking()
     print(ranking.head(20).round(3))
-    ranking.to_csv("final_ranking.csv")
+
+    # keep the previous ranking in final_ranking_old.csv, then write the new one
+    if RANKING_FILE.exists():
+        shutil.copyfile(RANKING_FILE, OLD_RANKING_FILE)
+        print(f"Previous ranking saved to {OLD_RANKING_FILE.name}")
+    ranking.to_csv(RANKING_FILE)
+    print(f"New ranking saved to {RANKING_FILE.name}")
