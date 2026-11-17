@@ -3,13 +3,13 @@ from pathlib import Path
 import pandas as pd
 
 DATA = Path(__file__).resolve().parent.parent / "data"
-GVP_FILE = DATA / "GVP_Volcano_List_Holocene.csv"
+GVP_FILE = DATA / "raw" / "GVP_Volcano_List_Holocene.csv"
 
 
 def score(df: pd.DataFrame) -> pd.DataFrame:
     """Turn the readiness value (already 0-1) into the mapping score.
 
-    Input:  name, lat, lon, readiness   (data/volcano_readiness.csv)
+    Input:  name, lat, lon, readiness   (data/processed/volcano_readiness.csv)
     Output: name, lat, lon, gvp_volcano_number, mapping_score
 
     The names and coordinates in this file come from the GVP list, not OSM,

@@ -17,10 +17,10 @@ pd.set_option("display.width", None)
 DATA = Path(__file__).resolve().parent / "data"
 
 # The 4 input files (file a, b, c, d)
-HAZARD_FILE = DATA / "hazard.csv"
-POPULATION_FILE = DATA / "population.csv"
-PREPAREDNESS_FILE = DATA / "preparedness.csv"
-MAPPING_FILE = DATA / "volcano_readiness.csv"
+HAZARD_FILE = DATA / "processed" / "hazard.csv"
+POPULATION_FILE = DATA / "processed" / "population.csv"
+PREPAREDNESS_FILE = DATA / "processed" / "preparedness.csv"
+MAPPING_FILE = DATA / "processed" / "volcano_readiness.csv"
 
 # Two rows are the same volcano when they have the same name AND their
 # coordinates are closer than this (allows small differences between files).
@@ -156,3 +156,4 @@ def compute_ranking() -> pd.DataFrame:
 if __name__ == "__main__":
     ranking = compute_ranking()
     print(ranking.head(20).round(3))
+    ranking.to_csv("final_ranking.csv")

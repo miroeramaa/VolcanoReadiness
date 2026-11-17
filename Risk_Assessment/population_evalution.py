@@ -1,3 +1,4 @@
+import warnings
 from pathlib import Path
 
 import pandas as pd
@@ -9,6 +10,10 @@ from pyproj import CRS, Transformer
 from shapely.geometry import Point
 from shapely.ops import transform, unary_union
 
+# shapely.ops.transform still works; hide its deprecation notice (it prints a docs URL every volcano)
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="shapely")
+warnings.filterwarnings("ignore", message=".*shapely.ops.transform.*")
+
 
 MIDPOINT = None   # population that scores 0.5; None = use the median
 STEEPNESS = 2
@@ -16,10 +21,10 @@ RADIUS = 10       # km
 
 
 
-# Kontur population dataset, downloaded by hand and put in the data folder:
+# Kontur population dataset, downloaded by hand and put in the data/raw folder:
 # https://geodata-eu-central-1-kontur-public.s3.eu-central-1.amazonaws.com/kontur_datasets/kontur_population_20231101.gpkg.gz
 DATA = Path(__file__).resolve().parent.parent / "data"
-KONTUR_FILE = DATA / "kontur_population_20231101.gpkg"
+KONTUR_FILE = DATA / "raw" / "kontur_population_20231101.gpkg"
 
 
 def score(df: pd.DataFrame) -> pd.DataFrame:
@@ -28,7 +33,7 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
     Input:  name, lat, lon
     Output: name, lat, lon, population_score
     """
-    cache = DATA / "kontur_10km_population_scores.csv"
+    cache = DATA / "processed" / "kontur_10km_population_scores.csv"
     if cache.exists():
         cached = pd.read_csv(cache)
         if len(cached) == len(df) and (cached["name"].values == df["name"].values).all():
@@ -39,7 +44,7 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
         raise FileNotFoundError(
             f"Kontur population file not found at {KONTUR_FILE}\n"
             "Download it (see the link at the top of this file), unzip it, "
-            "and put the .gpkg file in the data folder."
+            "and put the .gpkg file in the data/raw folder."
         )
 
     df = df.copy().reset_index(drop=True)
@@ -121,25 +126,14 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
     )
 
     # Save detailed results
-    df.to_csv(DATA / "kontur_10km_population_scores.csv", index=False)
+    df.to_csv(DATA / "processed" / "kontur_10km_population_scores.csv", index=False)
 
     # Return only the required columns
     return df[["name", "lat", "lon", "population_score"]]
-"""for testing purposes
-# Load volcano data
-volcanoes = pd.read_csv(
-    DATA_FOLDER / "GVP_Volcano_List_Holocene.csv"
-)
 
-# Rename columns
-volcanoes = volcanoes.rename(columns={
-    "Volcano Name": "name",
-    "Latitude": "lat",
-    "Longitude": "lon"
-})
 
-# Run population scoring
-results = score(volcanoes)
-
-# Display results
-print(results) """
+if __name__ == "__main__":
+    # Recompute scores for the volcano list in data/processed/hazard.csv
+    volcanoes = pd.read_csv(DATA / "processed" / "hazard.csv")
+    results = score(volcanoes)
+    print(results.sort_values("population_score", ascending=False).head(10).to_string(index=False))
