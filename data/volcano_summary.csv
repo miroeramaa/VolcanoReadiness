@@ -1,0 +1,251 @@
+name,site,volcano_number,lat,lon,readiness,house_completeness,completeness,coverage,houses,unmapped_houses,cells,readiness_cells,low_count_cells,readiness_percentile,readiness_min_houses,ercolano_house_completeness,ercolano_readiness,ercolano_houses,ercolano_unmapped_houses,map
+Gedemsa,gedemsa,221230,8.3630,39.1720,0.9231,0.6364,0.6363,1.0000,132,48,466,5,19,20,10,0.0083,0.0000,1205,1195,maps/out/gedemsa_unet-site-osm.html
+Tampomas,tampomas,263131,-6.7639,107.9612,0.9031,0.9284,0.8264,1.0000,47969,3435,432,272,35,20,10,0.8663,0.7797,36715,4910,maps/out/tampomas_unet-site-osm.html
+Reventador,reventador,352010,-0.0770,-77.6560,0.8733,0.6721,0.6797,0.9894,61,20,376,2,17,20,10,0.0507,0.0000,651,618,maps/out/reventador_unet-site-osm.html
+Gede-Pangrango,gede_pangrango,263060,-6.7860,106.9830,0.8537,0.9172,0.8368,0.9976,30062,2490,422,148,37,20,10,0.9163,0.7553,13046,1092,maps/out/gede_pangrango_unet-site-osm.html
+Paluweh,paluweh,264150,-8.3200,121.7080,0.8384,0.8229,0.7504,1.0000,700,124,432,14,36,20,10,0.4664,0.0000,253,135,maps/out/paluweh_unet-site-osm.html
+Homa Mountain,homa_mountain,222070,-0.3800,34.5000,0.8358,0.8710,0.7629,1.0000,26796,3457,385,211,12,20,10,0.8049,0.8000,1112,217,maps/out/homa_mountain_unet-site-osm.html
+Menengai,menengai,222060,-0.2000,36.0700,0.8324,0.9027,0.8404,1.0000,45677,4443,395,259,53,20,10,0.8728,0.8000,5172,658,maps/out/menengai_unet-site-osm.html
+Pulosari,pulosari,263010,-6.3430,105.9780,0.8213,0.8614,0.7991,1.0000,56567,7839,419,310,4,20,10,0.8487,0.7814,28986,4387,maps/out/pulosari_unet-site-osm.html
+Kie Matubu,kie_matubu,268061,0.6623,127.4029,0.8057,0.8763,0.8149,1.0000,14009,1733,377,80,31,20,10,0.7754,0.0238,9300,2089,maps/out/kie_matubu_unet-site-osm.html
+Agung,agung,264020,-8.3430,115.5080,0.7975,0.8734,0.6542,1.0000,16423,2079,486,285,53,20,10,0.7919,0.7301,7756,1614,maps/out/agung_unet-site-osm.html
+Patuha,patuha,263070,-7.1620,107.4000,0.7941,0.8860,0.7946,1.0000,18448,2103,431,126,42,20,10,0.8868,0.8026,5876,665,maps/out/patuha_unet-site-osm.html
+Cameroon,cameroon,224010,4.2030,9.1700,0.7823,0.8447,0.8047,0.9980,2833,440,491,16,24,20,10,0.7418,0.8503,182,47,maps/out/cameroon_unet-site-osm.html
+Olkaria,olkaria,222090,-0.9040,36.2920,0.7675,0.8476,0.9171,1.0000,4233,645,387,83,109,20,10,0.7002,0.7635,617,185,maps/out/olkaria_unet-site-osm.html
+Tengger Caldera,tengger_caldera,263310,-7.9420,112.9500,0.7619,0.8464,0.5846,1.0000,4011,616,471,86,60,20,10,0.6332,0.3848,2249,825,maps/out/tengger_caldera_unet-site-osm.html
+Kelud,kelud,263280,-7.9350,112.3140,0.7569,0.8171,0.6801,1.0000,19801,3622,464,147,27,20,10,0.7535,0.4375,13717,3381,maps/out/kelud_unet-site-osm.html
+"Eburru, Ol Doinyo",eburru_ol_doinyo,222080,-0.6500,36.2200,0.7500,0.8783,0.8398,1.0000,8248,1004,388,178,78,20,10,0.6341,0.3067,574,210,maps/out/eburru_ol_doinyo_unet-site-osm.html
+Iya,iya,264110,-8.8910,121.6410,0.7258,0.8667,0.7249,1.0000,16787,2237,433,61,27,20,10,0.7573,0.0000,6902,1675,maps/out/iya_unet-site-osm.html
+Tangkuban Parahu,tangkuban_parahu,263090,-6.7700,107.6000,0.7143,0.8108,0.7044,1.0000,56832,10753,428,226,21,20,10,0.7994,0.6290,29276,5873,maps/out/tangkuban_parahu_unet-site-osm.html
+Tangkoko-Duasudara,tangkoko_duasudara,266130,1.5180,125.1850,0.7070,0.8684,0.7949,1.0000,17599,2316,384,77,35,20,10,0.6241,0.0000,11311,4252,maps/out/tangkoko_duasudara_unet-site-osm.html
+Lewotobi,lewotobi,264180,-8.5420,122.7750,0.7024,0.8633,0.7167,1.0000,4857,664,430,53,91,20,10,0.4138,0.0000,1061,622,maps/out/lewotobi_unet-site-osm.html
+Ebulobo,ebulobo,264100,-8.8170,121.1910,0.6888,0.7987,0.7086,1.0000,11708,2357,438,184,115,20,10,0.8484,0.7674,2771,420,maps/out/ebulobo_unet-site-osm.html
+Gamalama,gamalama,268060,0.8100,127.3322,0.6776,0.8877,0.8243,1.0000,27050,3038,377,88,12,20,10,0.7805,0.0000,16892,3708,maps/out/gamalama_unet-site-osm.html
+Ibu,ibu,268030,1.4941,127.6324,0.6776,0.7711,0.6693,1.0000,3119,714,373,33,40,20,10,0.8778,0.8000,851,104,maps/out/ibu_unet-site-osm.html
+Elmenteita Badlands,elmenteita_badlands,222071,-0.5460,36.2490,0.6714,0.8384,0.7781,1.0000,10496,1696,389,148,100,20,10,0.6545,0.4545,955,330,maps/out/elmenteita_badlands_unet-site-osm.html
+Karangetang,karangetang,267020,2.7810,125.4070,0.6520,0.6826,0.5138,1.0000,7573,2404,383,70,18,20,10,0.4257,0.0000,5067,2910,maps/out/karangetang_unet-site-osm.html
+Sirung,sirung,264270,-8.4972,124.1306,0.6518,0.7488,0.5646,1.0000,812,204,419,14,27,20,10,0.0830,0.0000,699,641,maps/out/sirung_unet-site-osm.html
+Sundoro,sundoro,263210,-7.3014,109.9970,0.6517,0.7661,0.6209,1.0000,45948,10747,447,249,29,20,10,0.7557,0.5661,27200,6645,maps/out/sundoro_unet-site-osm.html
+Inielika,inielika,264090,-8.7300,120.9800,0.6329,0.8273,0.6659,1.0000,9459,1634,445,103,62,20,10,0.7500,0.4297,4216,1054,maps/out/inielika_unet-site-osm.html
+Longonot,longonot,222100,-0.9140,36.4460,0.6164,0.7792,0.6789,1.0000,2287,505,393,52,88,20,10,0.5509,0.4600,481,216,maps/out/longonot_unet-site-osm.html
+Baluran,baluran,263351,-7.8500,114.3700,0.5985,0.6984,0.6170,1.0000,3017,910,483,24,32,20,10,0.2569,0.0000,4411,3278,maps/out/baluran_unet-site-osm.html
+Mega Volcanic Field,mega_volcanic_field,221330,3.9710,38.2130,0.5984,0.6615,0.4198,1.0000,1040,352,425,21,101,20,10,0.0037,0.0000,1913,1906,maps/out/mega_volcanic_field_unet-site-osm.html
+Papandayan,papandayan,263100,-7.3175,107.7306,0.5757,0.7028,0.6001,1.0000,34854,10358,432,140,50,20,10,0.6772,0.4367,12279,3964,maps/out/papandayan_unet-site-osm.html
+Awu,awu,267040,3.6890,125.4470,0.5455,0.7928,0.6840,1.0000,7791,1614,381,81,33,20,10,0.7612,0.5933,3689,881,maps/out/awu_unet-site-osm.html
+Dieng Volcanic Complex,dieng_volcanic_complex,263200,-7.2000,109.8790,0.5135,0.6787,0.4908,1.0000,16569,5324,446,186,41,20,10,0.5036,0.0645,9472,4702,maps/out/dieng_volcanic_complex_unet-site-osm.html
+Sinabung,sinabung,261080,3.1700,98.3920,0.5043,0.7521,0.7429,1.0000,12148,3012,365,153,78,20,10,0.5479,0.0833,5043,2280,maps/out/sinabung_unet-site-osm.html
+Klabat,klabat,266120,1.4540,125.0310,0.5040,0.8070,0.7417,1.0000,23611,4556,385,154,51,20,10,0.6561,0.1658,9887,3400,maps/out/klabat_unet-site-osm.html
+Tarakan,tarakan,268001,1.8320,127.8250,0.5032,0.7662,0.6914,1.0000,6718,1571,374,38,68,20,10,0.6079,0.0000,1270,498,maps/out/tarakan_unet-site-osm.html
+Ijen,ijen,263350,-8.0580,114.2420,0.4968,0.8163,0.6800,1.0000,735,135,480,17,38,20,10,0.1236,0.0000,995,872,maps/out/ijen_unet-site-osm.html
+Hiri,hiri,268052,0.8971,127.3170,0.4961,0.7645,0.6070,1.0000,3397,800,375,34,16,20,10,0.4326,0.0000,2545,1444,maps/out/hiri_unet-site-osm.html
+Marsabit,marsabit,222021,2.3200,37.9700,0.4959,0.5626,0.4905,1.0000,9742,4261,411,97,39,20,10,0.1884,0.0000,3418,2774,maps/out/marsabit_unet-site-osm.html
+Guntur,guntur,263130,-7.1430,107.8410,0.4867,0.6903,0.5740,1.0000,60476,18729,434,247,32,20,10,0.6592,0.4450,37472,12771,maps/out/guntur_unet-site-osm.html
+"Telong, Bur ni",telong_bur_ni,261050,4.7690,96.8210,0.4549,0.6720,0.5754,1.0000,18882,6193,361,167,30,20,10,0.7168,0.5729,10654,3017,maps/out/telong_bur_ni_unet-site-osm.html
+Camiguin,camiguin,271080,9.2030,124.6730,0.4545,0.6754,0.5314,1.0000,4833,1569,388,81,52,20,10,0.3167,0.0000,3006,2054,maps/out/camiguin_unet-site-osm.html
+Buyan-Bratan,buyan_bratan,264001,-8.2830,115.1330,0.4375,0.7148,0.6473,0.9938,15434,4402,485,246,67,20,10,0.6150,0.3345,9265,3567,maps/out/buyan_bratan_unet-site-osm.html
+Slamet,slamet,263180,-7.2420,109.2080,0.4229,0.7215,0.6480,1.0000,17234,4800,445,145,29,20,10,0.6695,0.3283,5125,1694,maps/out/slamet_unet-site-osm.html
+Kerinci,kerinci,261170,-1.6970,101.2640,0.4173,0.7759,0.6966,1.0000,7607,1705,382,55,100,20,10,0.7515,0.3491,3380,840,maps/out/kerinci_unet-site-osm.html
+Ol Kokwe,ol_kokwe,222055,0.6200,36.0750,0.4167,0.2842,0.3955,1.0000,95,68,399,1,38,20,10,0.3491,0.5077,106,69,maps/out/ol_kokwe_unet-site-osm.html
+Kawi-Butak,kawi_butak,263281,-7.9200,112.4500,0.3646,0.6872,0.5850,1.0000,22261,6964,464,137,32,20,10,0.6693,0.1761,10202,3374,maps/out/kawi_butak_unet-site-osm.html
+Melebingoy,melebingoy,271011,6.1130,124.8920,0.3507,0.4121,0.2864,1.0000,910,535,386,25,89,20,10,0.2014,0.0000,278,222,maps/out/melebingoy_unet-site-osm.html
+Merapi,merapi,263250,-7.5400,110.4460,0.3433,0.7276,0.6172,1.0000,32526,8861,451,289,27,20,10,0.6981,0.3246,21943,6624,maps/out/merapi_unet-site-osm.html
+Lokon-Empung,lokon_empung,266100,1.3644,124.7992,0.3326,0.7941,0.6951,1.0000,27468,5656,388,145,74,20,10,0.6450,0.1765,14134,5017,maps/out/lokon_empung_unet-site-osm.html
+Mahawu,mahawu,266110,1.3520,124.8650,0.3171,0.7527,0.6655,1.0000,30929,7649,388,170,85,20,10,0.6290,0.1782,11479,4259,maps/out/mahawu_unet-site-osm.html
+Singkut,singkut,261070,3.2379,98.5127,0.3074,0.6265,0.5626,1.0000,13547,5060,364,112,52,20,10,0.4916,0.0863,5098,2592,maps/out/singkut_unet-site-osm.html
+Iliwerung,iliwerung,264250,-8.5320,123.5730,0.2941,0.6976,0.6568,1.0000,1293,391,420,26,67,20,10,0.5947,0.7314,380,154,maps/out/iliwerung_unet-site-osm.html
+Galeras,galeras,351080,1.2200,-77.3700,0.2664,0.7333,0.5581,0.9974,13073,3486,384,103,72,20,10,0.5360,0.0000,3183,1477,maps/out/galeras_unet-site-osm.html
+Batur,batur,264010,-8.2403,115.3775,0.2575,0.6167,0.5379,1.0000,16314,6253,490,298,84,20,10,0.4452,0.0625,11112,6165,maps/out/batur_unet-site-osm.html
+Egon,egon,264160,-8.6760,122.4550,0.2500,0.5452,0.4650,1.0000,3665,1667,431,93,123,20,10,0.2343,0.0000,1848,1415,maps/out/egon_unet-site-osm.html
+Ililabalekan,ililabalekan,264240,-8.5500,123.3800,0.1818,0.4007,0.2441,1.0000,921,552,422,31,65,20,10,0.5977,0.5733,343,138,maps/out/ililabalekan_unet-site-osm.html
+Sumbing,sumbing_263220,263220,-7.3819,110.0747,0.1755,0.7423,0.6171,1.0000,28902,7449,446,244,42,20,10,0.6151,0.0000,15940,6135,maps/out/sumbing_263220_unet-site-osm.html
+Semeru,semeru,263300,-8.1080,112.9220,0.1635,0.6231,0.4636,1.0000,2072,781,472,37,54,20,10,0.5751,0.1480,1558,662,maps/out/semeru_unet-site-osm.html
+Galunggung,galunggung,263140,-7.2500,108.0580,0.1053,0.7639,0.7047,1.0000,28972,6840,432,196,37,20,10,0.6422,0.0342,17714,6338,maps/out/galunggung_unet-site-osm.html
+Kelimutu,kelimutu,264140,-8.7700,121.8200,0.0881,0.5766,0.4132,1.0000,5536,2344,432,123,93,20,10,0.4066,0.0000,3069,1821,maps/out/kelimutu_unet-site-osm.html
+Talagabodas,talagabodas,263150,-7.2080,108.0700,0.0864,0.7296,0.6726,1.0000,19992,5405,436,173,57,20,10,0.4220,0.0171,20729,11982,maps/out/talagabodas_unet-site-osm.html
+Suoh,suoh,261270,-5.2500,104.2700,0.0836,0.6022,0.5199,1.0000,8005,3184,408,113,65,20,10,0.5053,0.0000,5011,2479,maps/out/suoh_unet-site-osm.html
+Musuan,musuan,271070,7.8765,125.0697,0.0769,0.4230,0.3785,1.0000,13006,7505,380,176,139,20,10,0.2603,0.0000,8555,6328,maps/out/musuan_unet-site-osm.html
+Tandikat-Singgalang,tandikat_singgalang,261150,-0.4311,100.3192,0.0713,0.3849,0.3475,1.0000,15490,9528,373,129,64,20,10,0.3382,0.0278,6360,4209,maps/out/tandikat_singgalang_unet-site-osm.html
+Mare,mare,268062,0.5700,127.4000,0.0700,0.8190,0.7625,1.0000,4045,732,375,27,33,20,10,0.7933,0.0000,2313,478,maps/out/mare_unet-site-osm.html
+Inierie,inierie,264080,-8.8750,120.9500,0.0644,0.6756,0.5936,1.0000,8962,2907,441,114,67,20,10,0.7036,0.2300,2989,886,maps/out/inierie_unet-site-osm.html
+Baru,baru,346010,8.8080,-82.5430,0.0639,0.4707,0.4548,1.0000,3295,1744,417,68,96,20,10,0.4162,0.0000,2047,1195,maps/out/baru_unet-site-osm.html
+Matutum,matutum,271020,6.3604,125.0765,0.0556,0.5278,0.4422,1.0000,4992,2357,384,96,147,20,10,0.2238,0.0000,1506,1169,maps/out/matutum_unet-site-osm.html
+Banua Wuhu,banua_wuhu,267030,3.1463,125.4422,0.0545,0.4218,0.2968,1.0000,569,329,384,18,13,20,10,0.6000,0.5000,275,110,maps/out/banua_wuhu_unet-site-osm.html
+Rinjani,rinjani,264030,-8.4200,116.4700,0.0453,0.7617,0.6759,0.9979,4973,1185,476,23,39,20,10,0.3843,0.0000,1551,955,maps/out/rinjani_unet-site-osm.html
+Atacazo,atacazo,352021,-0.3530,-78.6170,0.0211,0.1919,0.1768,1.0000,31197,25211,377,95,57,20,10,0.1841,0.0270,6524,5323,maps/out/atacazo_unet-site-osm.html
+Ambang,ambang,266020,0.7500,124.4200,0.0025,0.5890,0.5885,1.0000,2698,1109,388,42,40,20,10,0.2961,0.0000,4526,3186,maps/out/ambang_unet-site-osm.html
+Marapi,marapi,261140,-0.3800,100.4740,0.0000,0.6254,0.5730,1.0000,20901,7829,375,169,45,20,10,0.6185,0.0000,15020,5730,maps/out/marapi_unet-site-osm.html
+Sorikmarapi,sorikmarapi,261120,0.6834,99.5409,0.0000,0.0639,0.0670,1.0000,4833,4524,368,57,57,20,10,0.0916,0.0000,1943,1765,maps/out/sorikmarapi_unet-site-osm.html
+Talakmau,talakmau,261130,0.0787,99.9840,0.0000,0.4611,0.3856,1.0000,900,485,375,27,58,20,10,0.2798,0.0000,865,623,maps/out/talakmau_unet-site-osm.html
+Shala,shala,221280,7.4569,38.5571,0.0000,0.0000,0.0000,0.9978,1466,1466,453,29,35,20,10,0.0000,0.0000,1466,1466,maps/out/shala_unet-site-osm.html
+Corbetti,corbetti,221290,7.1930,38.3900,0.0000,0.2301,0.1965,1.0000,6281,4836,446,159,162,20,10,0.0434,0.0000,830,794,maps/out/corbetti_unet-site-osm.html
+Bilate River Field,bilate_river_field,221291,7.0700,38.1000,0.0000,0.6501,0.6630,1.0000,7368,2578,446,156,123,20,10,0.0612,0.0000,947,889,maps/out/bilate_river_field_unet-site-osm.html
+Northern Lake Abaya Volcanic Field,northern_lake_abaya_volcanic_field,221294,6.7600,37.9700,0.0000,0.0000,0.0000,1.0000,1658,1658,443,63,166,20,10,0.0000,0.0000,1658,1658,maps/out/northern_lake_abaya_volcanic_field_unet-site-osm.html
+Liado Hayk,liado_hayk,221172,9.5700,40.2800,0.0000,0.0000,0.0000,1.0000,424,424,476,10,101,20,10,0.0000,0.0000,424,424,maps/out/liado_hayk_unet-site-osm.html
+Fentale,fentale,221190,8.9850,39.9060,0.0000,0.6222,0.4649,1.0000,3131,1183,474,16,27,20,10,0.2052,0.0000,268,213,maps/out/fentale_unet-site-osm.html
+Hertali,hertali,221171,9.7800,40.3300,0.0000,0.0000,0.0000,1.0000,491,491,469,7,149,20,10,0.0000,0.0000,491,491,maps/out/hertali_unet-site-osm.html
+Tombel Graben,tombel_graben,224011,4.7580,9.7170,0.0000,0.2870,0.2975,1.0000,7569,5397,491,64,44,20,10,0.3257,0.0000,479,323,maps/out/tombel_graben_unet-site-osm.html
+Oku Volcanic Field,oku_volcanic_field,224030,6.2500,10.5000,0.0000,0.0064,0.0066,1.0000,3760,3736,480,118,119,20,10,0.0064,0.0000,3760,3736,maps/out/oku_volcanic_field_unet-site-osm.html
+Fort Portal Volcanic Field,fort_portal_volcanic_field,223001,0.7000,30.2500,0.0000,0.5075,0.4833,1.0000,17828,8781,393,188,147,20,10,0.3935,0.0000,14012,8498,maps/out/fort_portal_volcanic_field_unet-site-osm.html
+Ndali-Kasenda Volcanic Field,ndali_kasenda_volcanic_field,223002,0.4583,30.2750,0.0000,0.5146,0.4045,1.0000,5272,2559,386,127,152,20,10,0.2011,0.0000,4728,3777,maps/out/ndali_kasenda_volcanic_field_unet-site-osm.html
+"Basile, Pico",basile_pico,224004,3.5880,8.7620,0.0000,0.0000,0.0000,0.9980,167,167,490,5,34,20,10,0.0000,0.0000,167,167,maps/out/basile_pico_unet-site-osm.html
+Suswa,suswa,222110,-1.1510,36.3570,0.0000,0.5363,0.4436,1.0000,496,230,387,11,118,20,10,0.0694,0.0000,144,134,maps/out/suswa_unet-site-osm.html
+Chyulu Hills,chyulu_hills,222130,-2.6800,37.8800,0.0000,0.0000,0.0000,1.0000,40,40,387,1,9,20,10,0.0000,0.0000,40,40,maps/out/chyulu_hills_unet-site-osm.html
+"Barrier, The",barrier_the,222030,2.3200,36.5700,0.0000,0.0000,0.0000,1.0000,653,653,408,9,78,20,10,0.0000,0.0000,653,653,maps/out/barrier_the_unet-site-osm.html
+Lake Turkana South Island,lake_turkana_south_island,222020,2.6364,36.5958,0.0000,0.0000,0.0000,1.0000,78,78,409,2,9,20,10,0.0000,0.0000,78,78,maps/out/lake_turkana_south_island_unet-site-osm.html
+Korath Range,korath_range,221320,5.1170,35.8920,0.0000,0.0048,0.0009,1.0000,207,206,423,7,29,20,10,0.0048,0.0000,207,206,maps/out/korath_range_unet-site-osm.html
+Nyambeni Hills,nyambeni_hills,222056,0.2300,37.8700,0.0000,0.0481,0.0553,1.0000,914,870,403,19,193,20,10,0.0149,0.0000,5688,5603,maps/out/nyambeni_hills_unet-site-osm.html
+Emuruangogolak,emuruangogolak,222051,1.5000,36.3300,0.0000,0.0000,0.0000,1.0000,205,205,401,4,42,20,10,0.0000,0.0000,205,205,maps/out/emuruangogolak_unet-site-osm.html
+Silali,silali,222052,1.1500,36.2300,0.0000,0.0000,0.0000,1.0000,64,64,403,1,13,20,10,0.0000,0.0000,64,64,maps/out/silali_unet-site-osm.html
+Lake Turkana Central Island,lake_turkana_central_island,222010,3.4960,36.0365,0.0000,0.0000,0.0000,1.0000,92,92,413,3,6,20,10,0.0000,0.0000,92,92,maps/out/lake_turkana_central_island_unet-site-osm.html
+Segererua Plateau,segererua_plateau,222050,1.5700,37.9000,0.0000,0.0000,0.0000,1.0000,697,697,408,22,132,20,10,0.0000,0.0000,697,697,maps/out/segererua_plateau_unet-site-osm.html
+Namarunu,namarunu,222040,1.9800,36.4300,0.0000,0.0000,0.0000,1.0000,1044,1044,403,35,62,20,10,0.0000,0.0000,1044,1044,maps/out/namarunu_unet-site-osm.html
+Dofen,dofen,221180,9.3500,40.1300,0.0000,0.4217,0.3685,1.0000,951,550,474,13,58,20,10,0.0097,0.0000,1650,1634,maps/out/dofen_unet-site-osm.html
+Kone,kone,221200,8.8105,39.6946,0.0000,0.0000,0.0000,1.0000,2133,2133,467,54,57,20,10,0.0000,0.0000,2133,2133,maps/out/kone_unet-site-osm.html
+Boset,boset,221210,8.5580,39.4750,0.0000,0.3881,0.3737,1.0000,5282,3232,463,112,177,20,10,0.0449,0.0000,401,383,maps/out/boset_unet-site-osm.html
+Bishoftu Volcanic Field,bishoftu_volcanic_field,221220,8.7800,38.9800,0.0000,0.3781,0.3586,1.0000,6749,4197,467,166,123,20,10,0.2130,0.0000,9297,7317,maps/out/bishoftu_volcanic_field_unet-site-osm.html
+Beru,beru,221191,8.9500,39.7500,0.0000,0.0000,0.0000,1.0000,1063,1063,472,24,99,20,10,0.0000,0.0000,1063,1063,maps/out/beru_unet-site-osm.html
+Melkassa,melkassa,221222,8.4300,39.3500,0.0000,0.3002,0.1898,1.0000,7947,5561,463,121,179,20,10,0.0373,0.0000,4804,4625,maps/out/melkassa_unet-site-osm.html
+Bora-Bericha-Tullu Moye,bora_bericha_tullu_moye,221250,8.2114,39.0812,0.0000,0.0000,0.0000,1.0000,1263,1263,460,28,159,20,10,0.0000,0.0000,1263,1263,maps/out/bora_bericha_tullu_moye_unet-site-osm.html
+East Ziway,east_ziway,221252,7.8740,38.9020,0.0000,0.0013,0.0001,1.0000,2227,2224,455,47,96,20,10,0.0013,0.0000,2227,2224,maps/out/east_ziway_unet-site-osm.html
+Aluto,aluto,221270,7.7700,38.7800,0.0000,0.0039,0.0009,1.0000,1032,1028,455,24,129,20,10,0.0039,0.0000,1032,1028,maps/out/aluto_unet-site-osm.html
+Ranau,ranau,261251,-4.8710,103.9250,0.0000,0.1700,0.1264,1.0000,5559,4614,408,104,126,20,10,0.1494,0.0000,3542,3013,maps/out/ranau_unet-site-osm.html
+Patah,patah,261231,-4.2570,103.3060,0.0000,0.0000,0.0000,1.0000,44,44,402,1,15,20,10,0.0000,0.0000,44,44,maps/out/patah_unet-site-osm.html
+Perbakti-Gagak,perbakti_gagak,263040,-6.7500,106.6750,0.0000,0.4928,0.4665,1.0000,25885,13128,425,219,49,20,10,0.3194,0.0000,16066,10935,maps/out/perbakti_gagak_unet-site-osm.html
+Ciremai,ciremai,263170,-6.8950,108.4080,0.0000,0.5965,0.5115,1.0000,25450,10268,432,166,36,20,10,0.5503,0.0000,22118,9947,maps/out/ciremai_unet-site-osm.html
+Serua,serua,265070,-6.3120,130.0170,0.0000,0.0065,0.0037,1.0000,153,152,384,6,10,20,10,0.0065,0.0000,153,152,maps/out/serua_unet-site-osm.html
+Nila,nila,265060,-6.7300,129.5000,0.0000,0.0305,0.0150,1.0000,197,191,386,4,22,20,10,0.0305,0.0000,197,191,maps/out/nila_unet-site-osm.html
+Wurlali,wurlali,265040,-7.1250,128.6750,0.0000,0.0174,0.0035,1.0000,1728,1698,393,23,42,20,10,0.0174,0.0000,1728,1698,maps/out/wurlali_unet-site-osm.html
+Iliboleng,iliboleng,264220,-8.3420,123.2580,0.0000,0.3473,0.3016,1.0000,12888,8412,423,107,28,20,10,0.3031,0.0000,1409,982,maps/out/iliboleng_unet-site-osm.html
+Lewotolok,lewotolok,264230,-8.2740,123.5080,0.0000,0.6446,0.5561,1.0000,4367,1552,425,65,64,20,10,0.5731,0.2833,527,225,maps/out/lewotolok_unet-site-osm.html
+Sangeang Api,sangeang_api,264050,-8.2000,119.0700,0.0000,0.0000,0.0000,1.0000,129,129,452,3,25,20,10,0.0000,0.0000,129,129,maps/out/sangeang_api_unet-site-osm.html
+"Sano, Wai",sano_wai,264060,-8.7345,120.0074,0.0000,0.0559,0.0457,1.0000,429,405,448,9,120,20,10,0.0559,0.0000,429,405,maps/out/sano_wai_unet-site-osm.html
+Ranakah,ranakah,264071,-8.6370,120.5302,0.0000,0.7559,0.7617,1.0000,23974,5853,443,163,43,20,10,0.8097,0.0000,10374,1974,maps/out/ranakah_unet-site-osm.html
+Iyang-Argapura,iyang_argapura,263330,-7.9700,113.5700,0.0000,0.0000,0.0000,1.0000,2837,2837,473,48,48,20,10,0.0000,0.0000,2837,2837,maps/out/iyang_argapura_unet-site-osm.html
+Raung,raung,263340,-8.1190,114.0560,0.0000,0.0040,0.0007,1.0000,1508,1502,482,18,9,20,10,0.0052,0.0000,1909,1899,maps/out/raung_unet-site-osm.html
+Penanggungan,penanggungan,263291,-7.6160,112.6200,0.0000,0.1734,0.2379,1.0000,26239,21690,466,305,72,20,10,0.1029,0.0000,50053,44905,maps/out/penanggungan_unet-site-osm.html
+Lamongan,lamongan,263320,-7.9810,113.3410,0.0000,0.0051,0.0023,1.0000,16751,16665,472,316,61,20,10,0.0058,0.0000,13959,13878,maps/out/lamongan_unet-site-osm.html
+Tambora,tambora,264040,-8.2500,118.0000,0.0000,0.0000,0.0000,1.0000,108,108,460,4,24,20,10,0.0000,0.0000,108,108,maps/out/tambora_unet-site-osm.html
+Merbabu,merbabu,263240,-7.4540,110.4400,0.0000,0.3556,0.3504,1.0000,28724,18509,449,325,21,20,10,0.2814,0.0000,26333,18924,maps/out/merbabu_unet-site-osm.html
+Lawu,lawu,263260,-7.6250,111.1920,0.0000,0.1356,0.1841,1.0000,15415,13324,454,194,29,20,10,0.0730,0.0000,25651,23778,maps/out/lawu_unet-site-osm.html
+Arjuno-Welirang,arjuno_welirang,263290,-7.7330,112.5750,0.0000,0.1750,0.1874,1.0000,9959,8216,467,106,36,20,10,0.1024,0.0000,10343,9284,maps/out/arjuno_welirang_unet-site-osm.html
+Talang,talang,261160,-0.9790,100.6810,0.0000,0.1883,0.2242,1.0000,9801,7955,383,150,54,20,10,0.1684,0.0000,7035,5850,maps/out/talang_unet-site-osm.html
+Krakatau,krakatau,262000,-6.1009,105.4233,0.0000,0.0000,0.0000,1.0000,3685,3685,414,70,15,20,10,0.0000,0.0000,3685,3685,maps/out/krakatau_unet-site-osm.html
+Karang,karang,263020,-6.2680,106.0500,0.0000,0.7173,0.6938,1.0000,51793,14640,420,304,20,20,10,0.6767,0.0000,36218,11709,maps/out/karang_unet-site-osm.html
+Salak,salak,263050,-6.7160,106.7330,0.0000,0.1843,0.2290,1.0000,37985,30985,427,262,30,20,10,0.1216,0.0000,39974,35114,maps/out/salak_unet-site-osm.html
+Kaba,kaba,261220,-3.5156,102.6261,0.0000,0.1332,0.1458,1.0000,7070,6128,393,91,61,20,10,0.1104,0.0000,6456,5743,maps/out/kaba_unet-site-osm.html
+Dempo,dempo,261230,-4.0160,103.1210,0.0000,0.0157,0.0284,1.0000,2360,2323,394,46,150,20,10,0.0157,0.0000,2360,2323,maps/out/dempo_unet-site-osm.html
+Ruang,ruang,267010,2.3058,125.3671,0.0000,0.0054,0.0023,1.0000,3674,3654,382,68,51,20,10,0.0054,0.0000,3674,3654,maps/out/ruang_unet-site-osm.html
+Dukono,dukono,268010,1.6992,127.8783,0.0000,0.0000,0.0000,1.0000,277,277,373,7,18,20,10,0.0000,0.0000,277,277,maps/out/dukono_unet-site-osm.html
+Tobaru,tobaru,268020,1.6300,127.6700,0.0000,0.3067,0.4376,1.0000,1200,832,375,28,134,20,10,0.7413,0.8235,201,52,maps/out/tobaru_unet-site-osm.html
+Todoko-Ranu,todoko_ranu,268050,1.2389,127.4556,0.0000,0.0000,0.0000,1.0000,659,659,373,20,28,20,10,0.0000,0.0000,659,659,maps/out/todoko_ranu_unet-site-osm.html
+Jailolo,jailolo,268051,1.0800,127.4390,0.0000,0.4142,0.3663,0.9973,7030,4118,375,61,23,20,10,0.4042,0.0000,3555,2118,maps/out/jailolo_unet-site-osm.html
+Gamkonora,gamkonora,268040,1.3800,127.5300,0.0000,0.6412,0.6520,1.0000,2542,912,376,37,74,20,10,0.6521,0.0000,710,247,maps/out/gamkonora_unet-site-osm.html
+Colo,colo,266010,-0.1620,121.6010,0.0000,0.0031,0.0000,1.0000,653,651,402,21,33,20,10,0.0031,0.0000,653,651,maps/out/colo_unet-site-osm.html
+Banda Api,banda_api,265090,-4.5230,129.8810,0.0000,0.5868,0.5078,1.0000,4364,1803,380,47,36,20,10,0.2245,0.0000,1902,1475,maps/out/banda_api_unet-site-osm.html
+Manuk,manuk,265080,-5.5430,130.3030,0.0000,0.0000,0.0000,1.0000,597,597,386,10,4,20,10,0.0000,0.0000,597,597,maps/out/manuk_unet-site-osm.html
+Soputan,soputan,266030,1.1120,124.7370,0.0000,0.1597,0.1623,1.0000,12551,10547,389,71,99,20,10,0.1750,0.0000,5743,4738,maps/out/soputan_unet-site-osm.html
+Leonard Range,leonard_range,271031,7.3820,126.0470,0.0000,0.0951,0.0751,1.0000,1766,1598,386,46,100,20,10,0.0661,0.0000,923,862,maps/out/leonard_range_unet-site-osm.html
+Makaturing,makaturing,271040,7.6440,124.3170,0.0000,0.3797,0.3582,1.0000,1717,1065,386,38,60,20,10,0.2241,0.0909,531,412,maps/out/makaturing_unet-site-osm.html
+Kie Besi,kie_besi,268070,0.3200,127.4000,0.0000,0.0351,0.0339,1.0000,798,770,375,18,28,20,10,0.0351,0.0000,798,770,maps/out/kie_besi_unet-site-osm.html
+Moti,moti,268063,0.4540,127.4110,0.0000,0.3662,0.3345,1.0000,1024,649,379,24,29,20,10,0.2889,0.0000,592,421,maps/out/moti_unet-site-osm.html
+"Tolima, Nevado del",tolima_nevado_del,351030,4.6580,-75.3300,0.0000,0.0056,0.0007,0.9582,1062,1056,407,24,43,20,10,0.0056,0.0000,1062,1056,maps/out/tolima_nevado_del_unet-site-osm.html
+Machin,machin,351040,4.4870,-75.3890,0.0000,0.2865,0.2633,0.9602,1913,1365,402,55,160,20,10,0.2657,0.0500,858,630,maps/out/machin_unet-site-osm.html
+"Ruiz, Nevado del",ruiz_nevado_del,351020,4.8920,-75.3240,0.0000,0.0362,0.0061,1.0000,884,852,405,25,107,20,10,0.0362,0.0000,884,852,maps/out/ruiz_nevado_del_unet-site-osm.html
+Irazu,irazu,345060,9.9790,-83.8520,0.0000,0.0247,0.0243,1.0000,3884,3788,428,82,137,20,10,0.0247,0.0000,3884,3788,maps/out/irazu_unet-site-osm.html
+Purace,purace,351060,2.3095,-76.3948,0.0000,0.0218,0.0139,0.9923,458,448,392,11,67,20,10,0.0218,0.0000,458,448,maps/out/purace_unet-site-osm.html
+Sotara,sotara,351061,2.1080,-76.5920,0.0000,0.0149,0.0040,1.0000,67,66,385,1,30,20,10,0.0149,0.0000,67,66,maps/out/sotara_unet-site-osm.html
+Dona Juana,dona_juana,351070,1.5000,-76.9360,0.0000,0.0000,0.0000,1.0000,340,340,385,5,84,20,10,0.0000,0.0000,340,340,maps/out/dona_juana_unet-site-osm.html
+Azufral,azufral,351090,1.0800,-77.6800,0.0000,0.0066,0.0028,1.0000,2435,2419,378,89,199,20,10,0.0066,0.0000,2435,2419,maps/out/azufral_unet-site-osm.html
+Cumbal,cumbal,351100,0.9500,-77.8700,0.0000,0.0021,0.0140,1.0000,949,947,384,39,87,20,10,0.0021,0.0000,949,947,maps/out/cumbal_unet-site-osm.html
+Soche,soche,352001,0.5520,-77.5800,0.0000,0.0031,0.0007,0.9948,320,319,384,12,35,20,10,0.0031,0.0000,320,319,maps/out/soche_unet-site-osm.html
+"Huila, Nevado del",huila_nevado_del,351050,2.9300,-76.0300,0.0000,0.0000,0.0000,1.0000,1884,1884,394,32,68,20,10,0.0000,0.0000,1884,1884,maps/out/huila_nevado_del_unet-site-osm.html
+Santa Isabel,santa_isabel,351021,4.8180,-75.3650,0.0000,0.0096,0.0014,1.0000,1046,1036,403,26,85,20,10,0.0096,0.0000,1046,1036,maps/out/santa_isabel_unet-site-osm.html
+Cuicocha,cuicocha,352003,0.3080,-78.3640,0.0000,0.0365,0.0129,1.0000,1286,1239,377,35,91,20,10,0.0365,0.0000,1286,1239,maps/out/cuicocha_unet-site-osm.html
+Chachimbiro,chachimbiro,352002,0.4680,-78.2870,0.0000,0.0165,0.0212,1.0000,547,538,379,20,83,20,10,0.0165,0.0000,547,538,maps/out/chachimbiro_unet-site-osm.html
+Mojanda,mojanda,352005,0.1300,-78.2700,0.0000,0.0303,0.0489,0.9973,1881,1824,374,63,71,20,10,0.0303,0.0000,1881,1824,maps/out/mojanda_unet-site-osm.html
+Imbabura,imbabura,352004,0.2580,-78.1830,0.0000,0.0692,0.0922,1.0000,5188,4829,375,130,110,20,10,0.0571,0.0000,8071,7610,maps/out/imbabura_unet-site-osm.html
+Cayambe,cayambe,352006,0.0290,-77.9860,0.0000,0.0000,0.0000,1.0000,185,185,373,4,53,20,10,0.0000,0.0000,185,185,maps/out/cayambe_unet-site-osm.html
+Pululahua,pululahua,352011,0.0464,-78.4900,0.0000,0.1762,0.2246,1.0000,9457,7791,375,63,84,20,10,0.1182,0.0000,4846,4273,maps/out/pululahua_unet-site-osm.html
+Guagua Pichincha,guagua_pichincha,352020,-0.1710,-78.5980,0.0000,0.2878,0.1927,1.0000,12221,8704,374,47,90,20,10,0.3067,0.0000,877,608,maps/out/guagua_pichincha_unet-site-osm.html
+Chacana,chacana,352022,-0.3750,-78.2500,0.0000,0.0673,0.0826,1.0000,104,97,373,2,38,20,10,0.0673,0.0000,104,97,maps/out/chacana_unet-site-osm.html
+Antisana,antisana,352030,-0.4810,-78.1410,0.0000,0.0032,0.0020,1.0000,315,314,373,8,47,20,10,0.0032,0.0000,315,314,maps/out/antisana_unet-site-osm.html
+Iliniza,iliniza,352041,-0.6620,-78.7160,0.0000,0.0133,0.0013,1.0000,226,223,373,2,82,20,10,0.0133,0.0000,226,223,maps/out/iliniza_unet-site-osm.html
+Cotopaxi,cotopaxi,352050,-0.6770,-78.4360,0.0000,0.0076,0.0023,0.9840,395,392,376,13,40,20,10,0.0076,0.0000,395,392,maps/out/cotopaxi_unet-site-osm.html
+Quilotoa,quilotoa,352060,-0.8592,-78.9044,0.0000,0.0169,0.0025,1.0000,890,875,375,14,180,20,10,0.0169,0.0000,890,875,maps/out/quilotoa_unet-site-osm.html
+Chimborazo,chimborazo,352071,-1.4690,-78.8170,0.0000,0.0041,0.0004,1.0000,3197,3184,368,56,92,20,10,0.0041,0.0000,3197,3184,maps/out/chimborazo_unet-site-osm.html
+Tungurahua,tungurahua,352080,-1.4670,-78.4420,0.0000,0.2407,0.2379,1.0000,6885,5228,369,92,68,20,10,0.2314,0.0000,2351,1807,maps/out/tungurahua_unet-site-osm.html
+Licto,licto,352081,-1.7860,-78.6140,0.0000,0.0785,0.0778,1.0000,4800,4423,370,142,145,20,10,0.0520,0.0000,3519,3336,maps/out/licto_unet-site-osm.html
+Sangay,sangay,352090,-2.0050,-78.3410,0.0000,0.0000,0.0000,0.9813,43,43,374,1,23,20,10,0.0000,0.0000,43,43,maps/out/sangay_unet-site-osm.html
+Butajiri-Silti Field,butajiri_silti_field,221260,8.0500,38.3500,,,,1.0000,0,0,455,0,0,20,10,0.0290,0.0000,1691,1642,maps/out/butajiri_silti_field_unet-site-osm.html
+Lake Turkana North Island,lake_turkana_north_island,222001,4.0631,36.0458,,0.0000,0.0000,1.0000,4,4,417,0,2,20,10,0.0000,,4,4,maps/out/lake_turkana_north_island_unet-site-osm.html
+Paka,paka,222053,0.9200,36.1800,,0.0000,0.0000,1.0000,59,59,398,0,41,20,10,0.0000,,59,59,maps/out/paka_unet-site-osm.html
+Korosi,korosi,222054,0.7700,36.1200,,0.0000,0.0000,1.0000,36,36,399,0,27,20,10,0.0000,,36,36,maps/out/korosi_unet-site-osm.html
+St. Andrew Strait,st_andrew_strait,250010,-2.3800,147.3500,,,,1.0000,0,0,375,0,0,20,10,,,0,0,maps/out/st_andrew_strait_unet-site-osm.html
+Titan Ridge,titan_ridge,250030,-3.0300,147.7800,,,,1.0000,0,0,375,0,0,20,10,,,0,0,maps/out/titan_ridge_unet-site-osm.html
+Blup Blup,blup_blup,251001,-3.5070,144.6050,,,,1.0000,0,0,372,0,0,20,10,,,0,0,maps/out/blup_blup_unet-site-osm.html
+Kadovar,kadovar,251002,-3.6080,144.5880,,,,1.0000,0,0,372,0,0,20,10,,,0,0,maps/out/kadovar_unet-site-osm.html
+Bam,bam,251010,-3.6130,144.8180,,,,1.0000,0,0,377,0,0,20,10,,,0,0,maps/out/bam_unet-site-osm.html
+Manam,manam,251020,-4.0800,145.0370,,,,1.0000,0,0,374,0,0,20,10,,,0,0,maps/out/manam_unet-site-osm.html
+Karkar,karkar,251030,-4.6470,145.9760,,,,1.0000,0,0,381,0,0,20,10,,,0,0,maps/out/karkar_unet-site-osm.html
+Hankow Reef,hankow_reef,251041,-4.8830,146.7170,,,,1.0000,0,0,387,0,0,20,10,,,0,0,maps/out/hankow_reef_unet-site-osm.html
+Long Island,long_island,251050,-5.3144,147.1050,,,,1.0000,0,0,386,0,0,20,10,,,0,0,maps/out/long_island_unet-site-osm.html
+Umboi,umboi,251060,-5.5920,147.8920,,,,1.0000,0,0,396,0,0,20,10,,,0,0,maps/out/umboi_unet-site-osm.html
+Ritter Island,ritter_island,251070,-5.5190,148.1150,,,,1.0000,0,0,388,0,0,20,10,,,0,0,maps/out/ritter_island_unet-site-osm.html
+Sakar,sakar,251080,-5.4098,148.0836,,,,1.0000,0,0,385,0,0,20,10,,,0,0,maps/out/sakar_unet-site-osm.html
+Langila,langila,252010,-5.5250,148.4200,,,,1.0000,0,0,391,0,0,20,10,,,0,0,maps/out/langila_unet-site-osm.html
+Dakataua,dakataua,252040,-5.0455,150.0996,,,,1.0000,0,0,393,0,0,20,10,,,0,0,maps/out/dakataua_unet-site-osm.html
+Bola,bola,252050,-5.1410,150.0380,,,,1.0000,0,0,396,0,0,20,10,,,0,0,maps/out/bola_unet-site-osm.html
+Garua Harbour,garua_harbour,252060,-5.3000,150.0700,,,,1.0000,0,0,397,0,0,20,10,,,0,0,maps/out/garua_harbour_unet-site-osm.html
+Krummel-Garbuna-Welcker,krummel_garbuna_welcker,252070,-5.4160,150.0270,,,,1.0000,0,0,399,0,0,20,10,,,0,0,maps/out/krummel_garbuna_welcker_unet-site-osm.html
+Lolo,lolo,252071,-5.4660,150.5090,,,,1.0000,0,0,403,0,0,20,10,,,0,0,maps/out/lolo_unet-site-osm.html
+Witori,witori,252080,-5.5745,150.5161,,,,1.0000,0,0,398,0,0,20,10,,,0,0,maps/out/witori_unet-site-osm.html
+Sulu Range,sulu_range,252090,-5.5000,150.9420,,,,1.0000,0,0,404,0,0,20,10,,,0,0,maps/out/sulu_range_unet-site-osm.html
+Hargy,hargy,252100,-5.3300,151.1000,,,,1.0000,0,0,401,0,0,20,10,,,0,0,maps/out/hargy_unet-site-osm.html
+Bamus,bamus,252110,-5.2000,151.2300,,,,1.0000,0,0,399,0,0,20,10,,,0,0,maps/out/bamus_unet-site-osm.html
+Ulawun,ulawun,252120,-5.0500,151.3300,,,,1.0000,0,0,401,0,0,20,10,,,0,0,maps/out/ulawun_unet-site-osm.html
+Lolobau,lolobau,252130,-4.9156,151.1617,,,,1.0000,0,0,400,0,0,20,10,,,0,0,maps/out/lolobau_unet-site-osm.html
+Rabaul,rabaul,252140,-4.2459,152.1937,,,,1.0000,0,0,405,0,0,20,10,,,0,0,maps/out/rabaul_unet-site-osm.html
+Tavui,tavui,252150,-4.1089,152.2134,,,,1.0000,0,0,402,0,0,20,10,,,0,0,maps/out/tavui_unet-site-osm.html
+Lamington,lamington,253010,-8.9500,148.1500,,,,1.0000,0,0,407,0,0,20,10,,,0,0,maps/out/lamington_unet-site-osm.html
+Hydrographers Range,hydrographers_range,253011,-9.0000,148.3700,,,,1.0000,0,0,406,0,0,20,10,,,0,0,maps/out/hydrographers_range_unet-site-osm.html
+Managlase Plateau,managlase_plateau,253021,-9.0800,148.3300,,,,1.0000,0,0,410,0,0,20,10,,,0,0,maps/out/managlase_plateau_unet-site-osm.html
+Victory,victory,253030,-9.2003,149.0720,,,,1.0000,0,0,405,0,0,20,10,,,0,0,maps/out/victory_unet-site-osm.html
+Sessagara Hills,sessagara_hills,253040,-9.5542,149.1278,,,,1.0000,0,0,414,0,0,20,10,,,0,0,maps/out/sessagara_hills_unet-site-osm.html
+Goodenough,goodenough,253041,-9.3580,150.2460,,,,1.0000,0,0,417,0,0,20,10,,,0,0,maps/out/goodenough_unet-site-osm.html
+Iamalele,iamalele,253050,-9.5056,150.5239,,,,1.0000,0,0,415,0,0,20,10,,,0,0,maps/out/iamalele_unet-site-osm.html
+Dawson Strait Group,dawson_strait_group,253060,-9.6200,150.8800,,,,1.0000,0,0,422,0,0,20,10,,,0,0,maps/out/dawson_strait_group_unet-site-osm.html
+Balbi,balbi,255010,-5.9156,155.0008,,,,1.0000,0,0,431,0,0,20,10,,,0,0,maps/out/balbi_unet-site-osm.html
+Billy Mitchell,billy_mitchell,255011,-6.0898,155.2254,,,,1.0000,0,0,433,0,0,20,10,,,0,0,maps/out/billy_mitchell_unet-site-osm.html
+Bagana,bagana,255020,-6.1370,155.1960,,,,1.0000,0,0,432,0,0,20,10,,,0,0,maps/out/bagana_unet-site-osm.html
+Takuan Group,takuan_group,255021,-6.4420,155.6080,,,,1.0000,0,0,431,0,0,20,10,,,0,0,maps/out/takuan_group_unet-site-osm.html
+Loloru,loloru,255030,-6.5200,155.6200,,,,1.0000,0,0,433,0,0,20,10,,,0,0,maps/out/loloru_unet-site-osm.html
+Simbo,simbo,255050,-8.2920,156.5200,,,,1.0000,0,0,448,0,0,20,10,,,0,0,maps/out/simbo_unet-site-osm.html
+Kana Keoki,kana_keoki,255052,-8.7500,157.0300,,,,1.0000,0,0,456,0,0,20,10,,,0,0,maps/out/kana_keoki_unet-site-osm.html
+Coleman Seamount,coleman_seamount,255053,-8.8410,157.1600,,,,1.0000,0,0,457,0,0,20,10,,,0,0,maps/out/coleman_seamount_unet-site-osm.html
+Kavachi,kavachi,255060,-8.9910,157.9790,,,,1.0000,0,0,465,0,0,20,10,,,0,0,maps/out/kavachi_unet-site-osm.html
+New Georgia at 8.9°S,new_georgia_at_8_9s,255061,-8.9200,158.0300,,,,1.0000,0,0,468,0,0,20,10,,,0,0,maps/out/new_georgia_at_8_9s_unet-site-osm.html
+Savo,savo,255070,-9.1324,159.8119,,,,1.0000,0,0,490,0,0,20,10,,,0,0,maps/out/savo_unet-site-osm.html
+Peuet Sague,peuet_sague,261030,4.9030,96.2890,,0.2500,0.1047,1.0000,12,9,361,0,9,20,10,0.2500,,12,9,maps/out/peuet_sague_unet-site-osm.html
+Malintang,malintang,261121,0.4756,99.6628,,0.0000,0.0000,1.0000,6,6,371,0,4,20,10,0.0000,,6,6,maps/out/malintang_unet-site-osm.html
+Sumbing,sumbing_261180,261180,-2.4140,101.7280,,0.0000,0.0000,1.0000,131,131,383,0,42,20,10,0.0000,,131,131,maps/out/sumbing_261180_unet-site-osm.html
+"Tara, Batu",tara_batu,264260,-7.7910,123.5850,,0.0000,0.0000,1.0000,3,3,415,0,3,20,10,0.0000,,3,3,maps/out/tara_batu_unet-site-osm.html
+Teon,teon,265050,-6.9760,129.1440,,0.1333,0.1977,1.0000,15,13,391,0,10,20,10,0.1333,,15,13,maps/out/teon_unet-site-osm.html
+Ragang,ragang,271060,7.6910,124.5070,,0.0400,0.0039,1.0000,25,24,385,0,10,20,10,0.0400,,25,24,maps/out/ragang_unet-site-osm.html
+Galapagos Rift at 86°W,galapagos_rift_at_86w,334070,0.7920,-86.1500,,,,1.0000,0,0,377,0,0,20,10,,,0,0,maps/out/galapagos_rift_at_86w_unet-site-osm.html
+Romeral,romeral,351011,5.2030,-75.3630,,0.1714,0.0648,1.0000,105,87,413,0,77,20,10,0.1714,,105,87,maps/out/romeral_unet-site-osm.html
+"Bravo, Cerro",bravo_cerro,351012,5.0910,-75.2930,,0.1069,0.0489,0.9975,159,142,406,0,96,20,10,0.1069,,159,142,maps/out/bravo_cerro_unet-site-osm.html
+Aliso,aliso,352031,-0.5300,-78.0000,,0.0000,0.0000,0.9973,48,48,374,0,27,20,10,0.0000,,48,48,maps/out/aliso_unet-site-osm.html
+Sumaco,sumaco,352040,-0.5380,-77.6260,,0.0000,0.0000,0.9471,9,9,378,0,3,20,10,0.0000,,9,9,maps/out/sumaco_unet-site-osm.html
+Fernandina,fernandina,353010,-0.3700,-91.5500,,,,1.0000,0,0,378,0,0,20,10,,,0,0,maps/out/fernandina_unet-site-osm.html
+Ecuador,ecuador,353011,-0.0200,-91.5460,,,,1.0000,0,0,385,0,0,20,10,,,0,0,maps/out/ecuador_unet-site-osm.html
+Wolf,wolf,353020,0.0200,-91.3500,,,,1.0000,0,0,381,0,0,20,10,,,0,0,maps/out/wolf_unet-site-osm.html
+Darwin,darwin,353030,-0.1800,-91.2800,,,,1.0000,0,0,381,0,0,20,10,,,0,0,maps/out/darwin_unet-site-osm.html
+Alcedo,alcedo,353040,-0.4300,-91.1200,,,,1.0000,0,0,379,0,0,20,10,,,0,0,maps/out/alcedo_unet-site-osm.html
+"Negra, Sierra",negra_sierra,353050,-0.8300,-91.1700,,,,1.0000,0,0,374,0,0,20,10,,,0,0,maps/out/negra_sierra_unet-site-osm.html
+"Azul, Cerro",azul_cerro,353060,-0.9200,-91.4080,,,,1.0000,0,0,380,0,0,20,10,,,0,0,maps/out/azul_cerro_unet-site-osm.html
+Pinta,pinta,353070,0.5858,-90.7553,,,,1.0000,0,0,386,0,0,20,10,,,0,0,maps/out/pinta_unet-site-osm.html
+Marchena,marchena,353080,0.3300,-90.4700,,,,1.0000,0,0,382,0,0,20,10,,,0,0,maps/out/marchena_unet-site-osm.html
+Genovesa,genovesa,353081,0.3200,-89.9580,,,,1.0000,0,0,375,0,0,20,10,,,0,0,maps/out/genovesa_unet-site-osm.html
+Santiago,santiago,353090,-0.2200,-90.7700,,,,1.0000,0,0,374,0,0,20,10,,,0,0,maps/out/santiago_unet-site-osm.html
+Santa Cruz,santa_cruz,353091,-0.6200,-90.3300,,,,1.0000,0,0,376,0,0,20,10,,,0,0,maps/out/santa_cruz_unet-site-osm.html
+San Cristobal,san_cristobal,353120,-0.8292,-89.4292,,,,1.0000,0,0,374,0,0,20,10,,,0,0,maps/out/san_cristobal_unet-site-osm.html
