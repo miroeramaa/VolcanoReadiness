@@ -1,4 +1,5 @@
 import shutil
+import sys
 import unicodedata
 from pathlib import Path
 
@@ -21,7 +22,7 @@ DATA = Path(__file__).resolve().parent / "data"
 HAZARD_FILE = DATA / "processed" / "hazard.csv"
 POPULATION_FILE = DATA / "processed" / "kontur_10km_population_scores.csv"
 PREPAREDNESS_FILE = DATA / "processed" / "preparedness.csv"
-MAPPING_FILE = DATA / "processed" / "volcano_mapping.csv"
+MAPPING_FILE = DATA / "processed" / "volcano_readiness.csv"
 
 # Output: the new ranking, and a copy of the previous one
 RANKING_FILE = Path(__file__).resolve().parent / "final_ranking.csv"
@@ -152,7 +153,7 @@ def compute_ranking() -> pd.DataFrame:
     )
 
     # 5. total score (mapping is flipped: well mapped = lower priority).
-    #    With completeness 0 the mapping factor is 1, so total = base score.
+    #    With readiness 0 the mapping factor is 1, so total = base score.
     volcanoes["total_score"] = volcanoes["base_score"] * (1 - volcanoes["mapping_score"])
 
     # 6. ranking: total score first, base score breaks ties
@@ -174,3 +175,12 @@ if __name__ == "__main__":
         print(f"Previous ranking saved to {OLD_RANKING_FILE.name}")
     ranking.to_csv(RANKING_FILE)
     print(f"New ranking saved to {RANKING_FILE.name}")
+
+    # add the country column, then rebuild the country totals and the GAR15 comparison
+    sys.path.insert(0, str(DATA / "scripts"))
+    import country_summary
+    import gar15_comparison
+    print()
+    country_summary.main()
+    print()
+    gar15_comparison.main()
